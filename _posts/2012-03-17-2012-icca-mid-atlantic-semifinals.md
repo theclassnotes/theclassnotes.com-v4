@@ -1,5 +1,5 @@
 ---
-default: post
+layout: post
 published: true
 title: "2012 ICCA Mid-Atlantic Semifinals!"
 ---
