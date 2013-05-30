@@ -1,2 +1,3 @@
 name: The Class Notes
 permalink: "/:year/:month/:day/:title/"
+markdown: redcarpet
