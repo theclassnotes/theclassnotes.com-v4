@@ -5,7 +5,7 @@ title: FULL DISCLOSURE
 
 ---
 
-![FULL DISCLOSURE cover art](//images/full_disclosure.png)
+![FULL DISCLOSURE Cover Art](/images/full_disclosure.png)
 
 We are extremely proud to announce that we will be releasing our 9th studio album, **"Full Disclosure"**, at 2012, our Fall Concert on November 9, 2012. The CD will go on sale for $5 at the show and will be available shortly thereafter on iTunes and other digital outlets. You can also preorder it below:
 
