@@ -5,6 +5,8 @@ title: "Fall Auditions!"
 
 ---
 
+<img src="/images/set-fire-to-the-rain.jpeg" alt="Set Fire to the Rain" width="300" style="float: right; margin: 5px 5px 5px 10px;">
+
 Singer? Beatboxer? Check out The Class Notes, Cornell's original, award-winning co-ed a cappella group!
 
 [RSVP to the Facebook event!](https://www.facebook.com/events/488766447817847/)
