@@ -5,7 +5,9 @@ title: FULL DISCLOSURE
 
 ---
 
-We are extremely proud to announce that we will be releasing our 9th studio album, **"Full Disclosure"**, at CLASSIFIED 2012, our Fall Concert on November 9, 2012. The CD will go on sale for $5 at the show and will be available shortly thereafter on iTunes and other digital outlets. You can also preorder it below:
+![FULL DISCLOSURE cover art](//images/full_disclosure.png)
+
+We are extremely proud to announce that we will be releasing our 9th studio album, **"Full Disclosure"**, at 2012, our Fall Concert on November 9, 2012. The CD will go on sale for $5 at the show and will be available shortly thereafter on iTunes and other digital outlets. You can also preorder it below:
 
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
   <input type="hidden" name="cmd" value="_s-xclick">
