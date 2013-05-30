@@ -14,7 +14,7 @@ For the audition, please prepare a 30 second solo that showcases your voice. The
 
 Please e-mail us with any questions! We look forward to hearing from you!
 
-Julian Ordman (Musical Director) - md@theclassnotes.com
+Julian Ordman (Musical Director) - md@theclassnotes.com <br>
 Catherine Rieflin (General Manager) - gm@theclassnotes.com
 
 www.facebook.com/theclassnotes
