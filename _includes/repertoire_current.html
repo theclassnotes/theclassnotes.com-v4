@@ -1,0 +1,16 @@
+<table>
+<tr>
+  <th>Title</th>
+  <th>Original Artist</th>
+  <th>Soloist</th>
+  <th>Arranger</th>
+</tr>
+{% for song in site.current_repertoire %}
+<tr>
+  <td>{{ song.title }}</td>
+  <td>{{ song.original_artist }}</td>
+  <td>{{ song.soloist }}</td>
+  <td>{{ song.arranger }}</td>
+</tr>
+{% endfor %}
+</table>
