@@ -1,6 +1,7 @@
 ---
 published: "true"
-layout: default
+layout: post
+title: "Fall Auditions!"
 
 ---
 
