@@ -6,6 +6,7 @@
 
 @import "partials/variables";
 @import "partials/fonts/roboto";
+@import "compass/css3/images";
 
 /* Global Reset */
 * {
@@ -16,7 +17,8 @@
 html, body { height: 100%; }
 
 body {
-  background-color: $Beige;
+  @include background(image-url("free-texture-noearaujo.jpg"),
+                      $Beige);
   font: 18px/1.5 $FontStack;
   font-size: small;
   text-align: center;
