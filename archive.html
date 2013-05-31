@@ -1,0 +1,10 @@
+---
+layout: default
+title: Archive
+---
+
+<div id="archive">
+    {% for post in site.posts %}
+      {% include post_listing.html %}
+    {% endfor %}
+</div>
