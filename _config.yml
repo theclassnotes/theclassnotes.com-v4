@@ -2,6 +2,11 @@ name: The Class Notes
 tagline: Cornell University's Original Co-Ed A Cappella
 email: classnotes@cornell.edu
 
+emails:
+  general: classnotes@cornell.edu
+  gm: gm@theclassnotes.com
+  md: md@theclassnotes.com
+
 permalink: "/:year/:month/:day/:title/"
 markdown: redcarpet
 

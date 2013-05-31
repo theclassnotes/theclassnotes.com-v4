@@ -12,8 +12,8 @@ For the audition, please prepare a 30 second solo that showcases your voice. The
 
 Please e-mail us with any questions! We look forward to hearing from you!
 
-Julian Ordman (Musical Director) - md@theclassnotes.com <br>
-Catherine Rieflin (General Manager) - gm@theclassnotes.com
+Julian Ordman (Musical Director) - [{{ site.emails.md }}](mailto:{{ site.emails.md }}?subject=Spring+Auditions) <br>
+Catherine Rieflin (General Manager) - [{{ site.emails.gm }}](mailto:{{ site.emails.gm }}?subject=Spring+Auditions)
 
 [www.facebook.com/theclassnotes]({{ site.facebook.link }})<br>
 [www.youtube.com/cornellclassnotes]({{ site.youtube.link }})
