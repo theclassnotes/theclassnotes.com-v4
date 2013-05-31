@@ -1,8 +1,6 @@
 ---
-published: "true"
 layout: post
 title: "Spring Auditions!!"
-
 ---
 
 New semester, new Notes! The Class Notes are holding open auditions for all voice parts and class years at these times and locations:
@@ -17,5 +15,5 @@ Please e-mail us with any questions! We look forward to hearing from you!
 Julian Ordman (Musical Director) - md@theclassnotes.com <br>
 Catherine Rieflin (General Manager) - gm@theclassnotes.com
 
-www.facebook.com/theclassnotes
-www.youtube.com/cornellclassnotes
+[www.facebook.com/theclassnotes]({{ site.facebook.link }})<br>
+[www.youtube.com/cornellclassnotes]({{ site.youtube.link }})
