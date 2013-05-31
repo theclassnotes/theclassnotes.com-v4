@@ -1,0 +1,50 @@
+/*****************************************************************************/
+/*
+/* Posts
+/*
+/*****************************************************************************/
+
+@import "variables";
+
+.post-title {
+  display: block;
+  font-size: 2.5em;
+  line-height: 1em;
+}
+
+.post-date {
+  margin-top: 8px;
+  color: $DarkGrey;
+  font-weight: lighter;
+}
+
+.post-content {
+  color: #251E20;
+  font-weight: lighter;
+}
+
+.post {
+  margin-top: 0.7em;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  border-bottom: 2px dotted #D4D6D7;
+  font-size: 19px;
+  line-height: 1.2;
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  &:last-child {
+    border: none;
+  }
+
+  p:first-child {
+    margin-top: 5px;
+  }
+
+  ul, ol {
+    margin-left: 1.35em;
+  }
+}

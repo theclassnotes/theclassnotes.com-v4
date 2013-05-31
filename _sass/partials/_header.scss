@@ -1,0 +1,58 @@
+/*****************************************************************************/
+/*
+/* Header
+/*
+/*****************************************************************************/
+
+@import "compass/utilities/general/clearfix";
+@import "compass/css3/transition";
+@import "variables";
+
+.header {
+  @include clearfix;
+
+  .logo {
+    @include left-column;
+    font-size: 5em;
+    line-height: 0.9em;
+    text-align: right;
+    font-weight: bold;
+  }
+
+  .navigation {
+    @include right-column;
+    font-size: 2em;
+    line-height: 1em;
+    text-transform: uppercase;
+    margin-top: 2.38em;
+
+    a {
+      font-weight: lighter;
+      background-color: $Black;
+      color: $White;
+      @include single-transition(all, 0.5s, ease);
+
+      &.current, &:hover {
+        text-decoration: none;
+        background-color: $Red;
+        color: $Black;
+      }
+    }
+
+    ul {
+      list-style-type: none;
+
+      li {
+        float: left;
+        margin: 2px;
+
+        a {
+          display: block;
+          float: left;
+          padding: 5px;
+          font-weight: lighter;
+        }
+      }
+    }
+  }
+}

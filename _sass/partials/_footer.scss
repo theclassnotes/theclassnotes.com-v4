@@ -1,0 +1,22 @@
+/*****************************************************************************/
+/*
+/* Footer
+/*
+/*****************************************************************************/
+
+.site .footer {
+  font-size: 80%;
+  color: #666;
+  border-top: 4px solid #eee;
+  margin-top: 2em;
+  overflow: hidden;
+
+  .contact {
+    float: left;
+    margin-right: 3em;
+
+    a {
+      color: #8085C1;
+    }
+  }
+}
