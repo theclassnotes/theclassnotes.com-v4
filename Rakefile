@@ -10,21 +10,21 @@ end
 desc "Compile site"
 task :compile do
   jekyllPid = Process.spawn("jekyll build")
-  compassPid = Process.spawn("compass compile ./_sass")
+  compassPid = Process.spawn("compass compile ./_sass -e #{ENV['ENV'] || 'development'}")
   wait_and_kill [jekyllPid, compassPid]
 end
 
 desc "Watch"
 task :watch do
   jekyllPid = Process.spawn("jekyll build --watch")
-  compassPid = Process.spawn("compass watch ./_sass")
+  compassPid = Process.spawn("compass watch ./_sass -e #{ENV['ENV'] || 'development'}")
   wait_and_kill [jekyllPid, compassPid]
 end
 
 desc "Preview"
 task :preview do
   jekyllPid = Process.spawn("jekyll serve --watch")
-  compassPid = Process.spawn("compass watch ./_sass")
+  compassPid = Process.spawn("compass watch ./_sass -e #{ENV['ENV'] || 'development'}")
   wait_and_kill [jekyllPid, compassPid]
 end
 
