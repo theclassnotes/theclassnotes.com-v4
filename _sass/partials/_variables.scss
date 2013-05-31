@@ -5,4 +5,28 @@
 $Black: #251E20;
 $White: #D4D6D7;
 $Red:   #E20000;
+$Beige: #EDE9E2;
 $LightGrey: #E8E9EA;
+$DarkGrey: #565658;
+
+/////////////////////////
+/// Layout
+/////////////////////////
+
+$LeftColumnWidth:  24%;
+$ColumnGutterWidth: 2%;
+$RightColumnWidth: 73%;
+
+@mixin left-column {
+  float: left;
+  height: 100%;
+  width: $LeftColumnWidth;
+  margin-right: $ColumnGutterWidth/2;
+}
+
+@mixin right-column {
+  float: left;
+  height: 100%;
+  width: $RightColumnWidth;
+  margin-left: $ColumnGutterWidth/2;
+}
