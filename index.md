@@ -9,5 +9,5 @@ title: Home
     {% endfor %}
 </div>
 <div class="to-archive">
-  That's all the posts on this page. Check out the [Archive](/archive/) for the rest!
+  That's all the posts on this page. Check out the <a href="/archive/">Archive</a for the rest!
 </div>
