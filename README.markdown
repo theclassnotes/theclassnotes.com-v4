@@ -9,7 +9,7 @@ This site is presently a work-in-progress.
 
 ### Credits
 
-[Parker Moore '14](http://parkermoore.de/) - Development
+[Parker Moore '14](http://parkermoore.de/) - Development<br>
 Eric Schreiber, McGill University '12 - Design
 
 ### License
