@@ -1,10 +1,16 @@
-# The "New" theclassnotes.com
+# The "New" Online Look of The Class Notes
 
-Our website has gone under two changes - this is v3.
+Since our first website launched in 2003, our website has undergone three iterations. This
+is the fourth, with a focus on simplicity, accessibility (to non-techies - much :heart:
+for prose.io) and speed. Jekyll + GitHub Pages fits the bill from a technology standpoint,
+and Eric's splendid design does an outstanding job with the content.
+
+This site is presently a work-in-progress.
 
 ### Credits
 
-[Parker Moore '14](http://parkermoore.de/)
+[Parker Moore '14](http://parkermoore.de/) - Development
+Eric Schreiber, McGill University '12 - Design
 
 ### License
 
