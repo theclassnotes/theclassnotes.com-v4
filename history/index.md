@@ -1,4 +1,5 @@
 ---
+published: true
 layout: page
 title: Our History
 ---
@@ -71,7 +72,7 @@ has made affordable, high-quality recordings available even to younger, less est
 less affluent groups. As a result, The Class Notes has been able to release new
 studio-recorded albums every two or three years since 1994, albeit not without sacrifice
 and belt-tightening: Destinations (1996), Break The Silence (1998), Afterhours (2001),
-Unfolded (2004), Hint of Lime (2007).
+Unfolded (2004), Hint of Lime (2007), Black Tie Optional (2010), and Full Disclosure (2013).
 
 ## Classified
 
