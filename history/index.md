@@ -84,11 +84,7 @@ the name of the annual spring concert.
 
 ## "Only You"
 
-"Only You" is a song recorded by Yaz in 1982. It was covered in 1983 by the professional
-British a cappella group The Flying Pickets. This version reached Number One on the
-British charts. Don Snow, a member of The Class Notes, arranged this song for the group
-during the 1986-1987 academic year. Prior to this time, The Class Notes had no well-known
-signature tune. 
+"Only You" is a song recorded by Yaz in 1982. It was covered in 1983 by the professional British a cappella group The Flying Pickets. This version reached Number One on the British charts. Don Snow, a member of The Class Notes, arranged this song for the group during the 1986-1987 academic year. Prior to this time, The Class Notes had no well-known signature tune. 
 
 "Only You" has always been popular with the fans, and, over time, the song was performed
 more and more frequently. By the mid-1990s, “Only You” became the signature song of the
