@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Fall Auditions 2013
 ---
 
