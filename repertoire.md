@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Current Repertoire
+permalink: /repertoire/
 ---
 
 {% include repertoire_current.html %}

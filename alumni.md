@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Alumni
+permalink: /alumni/
 ---
 
 ## Before us came...

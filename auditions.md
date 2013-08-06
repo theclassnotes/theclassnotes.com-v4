@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Auditions
+permalink: /auditions/
 ---
 
 Come be a part of Cornell's original co-ed a cappella group!

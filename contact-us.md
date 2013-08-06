@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Contact Us
+permalink: /contact-us/
 ---
 
 The Class Notes have sung at many different events in many different countries. We have
@@ -13,10 +14,10 @@ General Manager<br>
 gm@theclassnotes.com
 
 General Inquiries:<br>
-Email: [classnotes@cornell.edu](mailto:classnotes@cornell.edu)<br> 
+Email: [classnotes@cornell.edu](mailto:classnotes@cornell.edu)<br>
 URL: [www.theclassnotes.com](http://theclassnotes.com)<br>
 
 Mail:<br>
-The Class Notes<br> 
+The Class Notes<br>
 Box 36 WSH<br>
 Ithaca, NY 14853

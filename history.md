@@ -1,7 +1,7 @@
 ---
-published: true
 layout: page
 title: Our History
+permalink: /history/
 ---
 
 ## Prehistory
@@ -18,7 +18,7 @@ first mixed a cappella group at Cornell.
 The Class Notes was founded in 1983 by Justine Johnson, David Lefkowitz, and Tim Peierls.
 Their goal was to start a mixed-voice group (still a reasonably novel concept, although
 other Ivy League schools, such as Princeton and Yale, already had them). The original idea
-was to create a sort of blend between jazz and pop styles. 
+was to create a sort of blend between jazz and pop styles.
 
 Finding a niche for mixed-voice a cappella was not always easy as there were not really
 any popular choral ensembles for mixed voices; only the Sage Chapel Choir and the Cornell
@@ -27,10 +27,10 @@ singing. Even the Songs of Cornell book from that period contained no mixed-voic
 arrangements! Mixed-voice groups were still relatively rare in the national collegiate a
 cappella scene, and there was an opinion (which still persists to some degree in the
 present) among many people that men and women cannot develop a natural blend with each
-other and so mixed-voice groups would necessarily be inferior to the single-sex groups. 
+other and so mixed-voice groups would necessarily be inferior to the single-sex groups.
 
 However, the group was always able to attract talented members and built, even in the
-early days, a reputation of excellence among its relatively narrow group of fans. 
+early days, a reputation of excellence among its relatively narrow group of fans.
 
 Over time, the jazz roots of the group were gradually phased out. The group has performed
 a repertoire of primarily recent pop for about fifteen years.
@@ -40,12 +40,12 @@ a repertoire of primarily recent pop for about fifteen years.
 The Cornell Jamboree was established in the 1984-1985 academic year as a concert featuring
 the active a cappella groups at that time: Cayuga's Waiters, The Hangovers, Nothing But
 Treble, The Touchtones, and The Class Notes. Each group would perform for about twenty
-minutes. 
+minutes.
 
 In addition, The Class Notes had their own annual show, also established in the 1984-1985
 academic year: Cuttin' Class. Traditionally, each a cappella group had one major show a
 year. The Class Notes considered Jamboree to be a major show and so would schedule Cuttin'
-Class for whichever semester did not contain Jamboree. 
+Class for whichever semester did not contain Jamboree.
 
 The Class Notes always had a substantial fan base; however, Jamboree V in Fall 1988 was
 the first time The Class Notes received serious popular press. This moved the group
@@ -65,7 +65,7 @@ The Class Notes were fortunate to receive a loan for the production of the first
 but they could not count on such generosity forever. The group wanted its second album to
 be released on compact disc, but they did not have the funds to record a major album. So,
 in 1994, The Class Notes released Naturally, the second album, and the first on compact
-disc, as a compilation of live concert tracks from Cuttin' Class VII, VIII, and IX. 
+disc, as a compilation of live concert tracks from Cuttin' Class VII, VIII, and IX.
 
 Although it would not be fair to say that recording has become cheap, modern technology
 has made affordable, high-quality recordings available even to younger, less established,
@@ -84,12 +84,12 @@ the name of the annual spring concert.
 
 ## "Only You"
 
-"Only You" is a song recorded by Yaz in 1982. It was covered in 1983 by the professional British a cappella group The Flying Pickets. This version reached Number One on the British charts. Don Snow, a member of The Class Notes, arranged this song for the group during the 1986-1987 academic year. Prior to this time, The Class Notes had no well-known signature tune. 
+"Only You" is a song recorded by Yaz in 1982. It was covered in 1983 by the professional British a cappella group The Flying Pickets. This version reached Number One on the British charts. Don Snow, a member of The Class Notes, arranged this song for the group during the 1986-1987 academic year. Prior to this time, The Class Notes had no well-known signature tune.
 
 "Only You" has always been popular with the fans, and, over time, the song was performed
 more and more frequently. By the mid-1990s, “Only You” became the signature song of the
 group, traditionally sung at the end of each major concert with alumni invited up from the
-audience. 
+audience.
 
 "Only You" is the only song to appear on all seven of The Class Notes' albums.
 
@@ -109,6 +109,6 @@ hundred distinct songs and have released seven albums. When The Class Notes bega
 one of five a cappella groups on campus and the only mixed group. At present, there are
 thirteen a cappella groups at Cornell, five of which are mixed (and only three of which
 are male) demonstrating a new a cappella norm on campus and demonstrating the influence
-The Class Notes had and still has on the campus a cappella community. 
+The Class Notes had and still has on the campus a cappella community.
 
 *Compiled by Andy Poe*
