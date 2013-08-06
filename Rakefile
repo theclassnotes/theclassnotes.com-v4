@@ -67,7 +67,7 @@ task :deploy do
   File.open('_config.yml', 'wb') do |f|
     f.write(read_and_merge(data_files))
   end
-  sh "compass compile ./_sass -e #{ENV['ENV'] || 'production'}"
+  sh "compass compile ./_sass -e production"
   if `git status --porcelain 2> /dev/null`.strip.include?("_config.yml")
     sh "git add _config.yml"
     sh "git commit -qm 'Update _config.yml based on contents of _data directory"
