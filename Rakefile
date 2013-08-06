@@ -67,6 +67,8 @@ task :deploy do
   File.open('_config.yml', 'wb') do |f|
     f.write(read_and_merge(data_files))
   end
-  compassPid = Process.spawn("compass compile ./_sass -e #{ENV['ENV'] || 'production'}")
-  wait_and_kill [compassPid]
+  sh "compass compile ./_sass -e #{ENV['ENV'] || 'production'}"
+  sh "git add _config.yml"
+  sh "git commit -qm 'Update _config.yml at #{Time.now}'"
+  sh "git push"
 end
