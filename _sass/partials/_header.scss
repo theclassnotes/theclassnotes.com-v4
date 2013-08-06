@@ -21,15 +21,14 @@
 
   .navigation {
     @include right-column;
-    font-size: 2em;
+    font-size: 1.75em;
     line-height: 1em;
     text-transform: uppercase;
-    margin-top: 2.38em;
+    margin-top: 3.6em;
 
     a {
       font-weight: lighter;
-      background-color: $Black;
-      color: $White;
+      color: $DarkGrey;
       @include single-transition(all, 0.5s, ease);
 
       &.current, &:hover {
@@ -41,15 +40,17 @@
 
     ul {
       list-style-type: none;
+      padding: 0;
 
       li {
         float: left;
         margin: 2px;
+        display: block;
 
         a {
           display: block;
           float: left;
-          padding: 5px;
+          padding: 8px;
           font-weight: lighter;
         }
       }

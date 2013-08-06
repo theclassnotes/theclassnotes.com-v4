@@ -30,3 +30,7 @@ $RightColumnWidth: 73%;
   width: $RightColumnWidth;
   margin-left: $ColumnGutterWidth/2;
 }
+
+@mixin main-center {
+  width: 64%;
+}

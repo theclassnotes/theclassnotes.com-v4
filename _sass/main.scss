@@ -6,26 +6,17 @@
 
 @import "partials/variables";
 @import "partials/fonts/roboto";
+@import "partials/pure";
 @import "compass/css3/images";
-
-/* Global Reset */
-* {
-  margin: 0;
-  padding: 0;
-}
 
 html, body { height: 100%; }
 
 body {
-  @include background(image-url("free-texture-noearaujo.jpg"),
-                      $Beige);
+  @include background(image-url("free-texture-noearaujo.jpg"), $Beige);
   font: 18px/1.5 $FontStack;
   font-size: small;
   text-align: center;
 }
-
-h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
 
 h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
@@ -34,10 +25,6 @@ a         { color: $Red; text-decoration: none; }
 a:hover   { color: $Red; text-decoration: underline; }
 a:visited { color: $Red; }
 
-table {
-  font-size: inherit;
-  font: 100%;
-}
 
 /*****************************************************************************/
 /*
@@ -46,13 +33,16 @@ table {
 /*****************************************************************************/
 
 .site {
+  @include main-center;
+  background-color: darken(white, 2%);
   font-size: 115%;
   text-align: justify;
-  width: 60%;
-  margin: 3em auto 2em;
+  padding: 2%;
+  margin: 0 auto 2em;
   line-height: 1.5em;
 }
 
+@import "partials/social";
 @import "partials/header";
 @import "partials/sidebar";
 @import "partials/content";
