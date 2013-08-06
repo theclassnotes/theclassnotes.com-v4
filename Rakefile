@@ -23,15 +23,8 @@ end
 
 desc "Preview"
 task :preview do
-  jekyllPid = Process.spawn("jekyll serve --watch")
+  data_files = Dir["_data/*"]
+  jekyllPid = Process.spawn("jekyll serve --watch --config _config.yml,#{data_files.join(",")}")
   compassPid = Process.spawn("compass watch ./_sass -e #{ENV['ENV'] || 'development'}")
   wait_and_kill [jekyllPid, compassPid]
-end
-
-desc "Deploy to heroku"
-task :deploy do
-  if `git remote -v|grep "heroku"`.empty?
-    `git remote add heroku git@heroku.com:unix-foo-6w.git`
-  end
-  `git push heroku master`
 end

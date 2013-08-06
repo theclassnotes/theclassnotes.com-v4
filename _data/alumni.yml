@@ -1,0 +1,12 @@
+#################################
+# Alumni
+#################################
+alumni:
+  -
+    year: 2012
+    name: Maya
+    picture: Maya.JPG
+  -
+    year: 2012
+    name: Ha Lim Lee
+    picture: HaLim.JPG
