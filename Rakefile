@@ -70,7 +70,7 @@ task :deploy do
   sh "compass compile ./_sass -e #{ENV['ENV'] || 'production'}"
   if `git status --porcelain 2> /dev/null`.strip.include?("_config.yml")
     sh "git add _config.yml"
-    sh "git commit -qm 'Update _config.yml at #{Time.now}'"
+    sh "git commit -qm 'Update _config.yml based on contents of _data directory"
   end
   sh "git push"
 end
