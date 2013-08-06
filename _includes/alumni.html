@@ -1,67 +1,43 @@
 <div class="alumni-year year-{{ include.year }}">
   <h2>Class of {{ include.year }}</h2>
-  {% case include.year %}
-    {% when 2012 %}
-{% include alumni_classes/2012.html %}
-    {% when 2011 %}
-{% include alumni_classes/2011.html %}
-    {% when 2010 %}
-{% include alumni_classes/2010.html %}
-    {% when 2009 %}
-{% include alumni_classes/2009.html %}
-    {% when 2008 %}
-{% include alumni_classes/2008.html %}
-    {% when 2007 %}
-{% include alumni_classes/2007.html %}
-    {% when 2006 %}
-{% include alumni_classes/2006.html %}
-    {% when 2005 %}
-{% include alumni_classes/2005.html %}
-    {% when 2004 %}
-{% include alumni_classes/2004.html %}
-    {% when 2003 %}
-{% include alumni_classes/2003.html %}
-    {% when 2002 %}
-{% include alumni_classes/2002.html %}
-    {% when 2001 %}
-{% include alumni_classes/2001.html %}
-    {% when 2000 %}
-{% include alumni_classes/2000.html %}
-    {% when 1999 %}
-{% include alumni_classes/1999.html %}
-    {% when 1998 %}
-{% include alumni_classes/1998.html %}
-    {% when 1997 %}
-{% include alumni_classes/1997.html %}
-    {% when 1996 %}
-{% include alumni_classes/1996.html %}
-    {% when 1995 %}
-{% include alumni_classes/1995.html %}
-    {% when 1994 %}
-{% include alumni_classes/1994.html %}
-    {% when 1993 %}
-{% include alumni_classes/1993.html %}
-    {% when 1992 %}
-{% include alumni_classes/1992.html %}
-    {% when 1991 %}
-{% include alumni_classes/1991.html %}
-    {% when 1990 %}
-{% include alumni_classes/1990.html %}
-    {% when 1989 %}
-{% include alumni_classes/1989.html %}
-    {% when 1988 %}
-{% include alumni_classes/1988.html %}
-    {% when 1987 %}
-{% include alumni_classes/1987.html %}
-    {% when 1986 %}
-{% include alumni_classes/1986.html %}
-    {% when 1985 %}
-{% include alumni_classes/1985.html %}
-    {% when 1984 %}
-{% include alumni_classes/1984.html %}
-    {% when 1983 %}
-{% include alumni_classes/1983.html %}
-    {% else %}
-    else
-  {% endcase %}
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <table class="alumniEmail" border="0" cellpadding="0" cellspacing="0" summary="">
+            <tbody>
+              {% for alumn in site.alumni %}
+                {% if alumn.year == include.year %}
+                <tr>
+                  <td>
+                    {{ alumn.name }}
+                  </td>
+                </tr>
+                {% endif %}
+              {% endfor %}
+            </tbody>
+          </table>
+        </td>
+        <td>
+          <table class="alumniPics" border="0" cellpadding="0" cellspacing="0" summary="">
+            <tbody>
+              {% for alumn in site.alumni %}
+                {% if alumn.year == include.year %}
+                  <tr>
+                    <td>
+                      {% if alumn.picture %}
+                        <img src="/images/alumni/{{ include.year }}/{{ alumn.picture }}" width="56" height="65" border="0">
+                      {% else %}
+                        <img src="/images/alumni/empty.gif" width="56" height="65" border="0">
+                      {% endif %}
+                    </td>
+                  </tr>
+                {% endif %}
+              {% endfor %}
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
 </div>

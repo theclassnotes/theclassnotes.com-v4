@@ -1135,8 +1135,15 @@ a:visited {
 /* Pages - Alumni
 /*
 /*****************************************************************************/
+div.alumni-year {
+  float: left;
+  width: 100%; }
+
 table.alumniPics {
-  float: left; }
+  float: left;
+  margin-left: 2em; }
+  table.alumniPics td {
+    padding: 2px; }
 
 table.alumniEmail {
   float: left; }

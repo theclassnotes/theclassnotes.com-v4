@@ -5,11 +5,16 @@
 /*****************************************************************************/
 
 div.alumni-year {
-
+  float: left;
+  width: 100%;
 }
 
 table.alumniPics {
   float: left;
+  margin-left: 2em;
+  td {
+    padding: 2px;
+  }
 }
 
 table.alumniEmail {
