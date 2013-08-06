@@ -1,9 +1,9 @@
+<h2>Class of {{ include.year }}</h2>
 <div class="alumni-year year-{{ include.year }}">
-  <h2>Class of {{ include.year }}</h2>
   <table>
     <tbody>
       <tr>
-        <td>
+        <td width="35%">
           <table class="alumniEmail" border="0" cellpadding="0" cellspacing="0" summary="">
             <tbody>
               {% for alumn in site.alumni %}
@@ -18,20 +18,22 @@
             </tbody>
           </table>
         </td>
-        <td>
+        <td width="64%">
           <table class="alumniPics" border="0" cellpadding="0" cellspacing="0" summary="">
             <tbody>
+              {% capture modulo %}first{% endcapture %}
               {% for alumn in site.alumni %}
                 {% if alumn.year == include.year %}
-                  {% if forloop.index0 % 4 == 0 %}<tr class="{{forloop.index0}}">{% endif %}
-                    <td>
+                  {% if modulo == "first" %}<tr>{% endif %}
+                    <td class="{{ modulo }}">
                       {% if alumn.picture %}
                         <img src="/images/alumni/{{ include.year }}/{{ alumn.picture }}" width="56" height="65" border="0">
                       {% else %}
                         <img src="/images/alumni/empty.gif" width="56" height="65" border="0">
                       {% endif %}
                     </td>
-                  {% if loop_index % 4 == 0 %}</tr>{% endif %}
+                  {% if modulo == "fifth" %}</tr>{% endif %}
+                  {% capture modulo %}{% case modulo %}{% when "first" %}second{% when "second" %}third{% when "third" %}fourth{% when "fourth" %}fifth{% when "fifth" %}first{% endcase %}{% endcapture %}
                 {% endif %}
               {% endfor %}
             </tbody>

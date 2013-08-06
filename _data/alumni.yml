@@ -60,3 +60,68 @@ alumni:
     year: 2011
     name: Jacob Chamoun
     picture: Jacob.png
+  #################################
+  # 2010
+  #################################
+  -
+    year: 2010
+    name: Olga Desyatnik
+    picture: olga.gif
+  -
+    year: 2010
+    name: Rachel Kleinman
+    picture: rachel.gif
+  -
+    year: 2010
+    name: Steve Linderman
+    picture: steve.gif
+  #################################
+  # 2009
+  #################################
+  -
+    year: 2009
+    name: Eugene Chang
+    picture: Eugene.gif
+  -
+    year: 2009
+    name: Scott Hayes
+    picture: Scott.gif
+  -
+    year: 2009
+    name: Natalie Pierro
+    picture: Natalie.gif
+  -
+    year: 2009
+    name: Alex Woogmaster
+    picture: woog.gif
+  #################################
+  # 2008
+  #################################
+  -
+    year: 2008
+    name: Anderson Clark
+    picture: anderson.gif
+  -
+    year: 2008
+    name: Jill Lange
+  -
+    year: 2008
+    name: Andrew Majak
+  -
+    year: 2008
+    name: Natasha Major
+  -
+    year: 2008
+    name: Amanda Soled
+    picture: amanda.gif
+  -
+    year: 2008
+    name: Phil Torres
+    picture: phil.gif
+  #################################
+  # 2007
+  #################################
+  -
+    year: 2007
+    name: Nellie Thompson
+    picture: nellie.gif
