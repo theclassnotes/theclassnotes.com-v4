@@ -987,24 +987,33 @@ a:visited {
 .header {
   overflow: hidden;
   *zoom: 1; }
-  .header .logo {
+  .header .left {
     float: left;
     height: 100%;
     width: 24%;
-    margin-right: 1%;
+    margin-right: 1%; }
+  .header .right {
+    float: left;
+    height: 100%;
+    width: 73%;
+    margin-left: 1%; }
+  .header .logo {
     font-size: 5em;
     line-height: 0.9em;
     text-align: right;
     font-weight: bold; }
+  .header h2.page-title {
+    float: left;
+    margin: 0.5em 0 0 8px;
+    padding: 0;
+    font-size: 4em;
+    line-height: 1.4em; }
   .header .navigation {
     float: left;
-    height: 100%;
-    width: 73%;
-    margin-left: 1%;
-    font-size: 1.75em;
-    line-height: 1em;
+    margin: 0.5em 0 0 0;
     text-transform: uppercase;
-    margin-top: 3.6em; }
+    line-height: 1em;
+    font-size: 1.75em; }
     .header .navigation a {
       font-weight: lighter;
       color: #565658;
@@ -1017,8 +1026,10 @@ a:visited {
         background-color: #e20000;
         color: #251e20; }
     .header .navigation ul {
+      float: left;
       list-style-type: none;
-      padding: 0; }
+      padding: 0;
+      margin: 0; }
       .header .navigation ul li {
         float: left;
         margin: 2px;
@@ -1080,7 +1091,7 @@ a:visited {
   margin-bottom: 0;
   margin-left: 0;
   margin-right: 0;
-  border-bottom: 2px dotted #D4D6D7;
+  border-bottom: 2px solid #D4D6D7;
   font-size: 19px;
   line-height: 1.2; }
   .post:first-child {
@@ -1113,3 +1124,19 @@ a:visited {
     margin-right: 3em; }
     .site .footer .contact a {
       color: #8085C1; }
+
+/*****************************************************************************/
+/*
+/* Pages - Home
+/*
+/*****************************************************************************/
+/*****************************************************************************/
+/*
+/* Pages - Alumni
+/*
+/*****************************************************************************/
+table.alumniPics {
+  float: left; }
+
+table.alumniEmail {
+  float: left; }

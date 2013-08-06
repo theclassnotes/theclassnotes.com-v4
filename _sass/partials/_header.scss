@@ -11,20 +11,34 @@
 .header {
   @include clearfix;
 
-  .logo {
+  .left {
     @include left-column;
+  }
+  .right {
+    @include right-column;
+  }
+
+  .logo {
     font-size: 5em;
     line-height: 0.9em;
     text-align: right;
     font-weight: bold;
   }
 
+  h2.page-title {
+    float: left;
+    margin: 0.5em 0 0 8px;
+    padding: 0;
+    font-size: 4em;
+    line-height: 1.4em;
+  }
+
   .navigation {
-    @include right-column;
-    font-size: 1.75em;
-    line-height: 1em;
+    float: left;
+    margin: 0.5em 0 0 0;
     text-transform: uppercase;
-    margin-top: 3.6em;
+    line-height: 1em;
+    font-size: 1.75em;
 
     a {
       font-weight: lighter;
@@ -39,8 +53,10 @@
     }
 
     ul {
+      float: left;
       list-style-type: none;
       padding: 0;
+      margin: 0;
 
       li {
         float: left;
