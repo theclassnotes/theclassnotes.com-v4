@@ -57,7 +57,7 @@ end
 
 desc "Preview"
 task :preview do
-  jekyllPid = Process.spawn("jekyll serve --watch --config _config.yml,#{data_files.join(",")}")
+  jekyllPid = Process.spawn("jekyll serve --watch --config #{data_files.join(",")}")
   compassPid = Process.spawn("compass watch ./_sass -e #{ENV['ENV'] || 'development'}")
   wait_and_kill [jekyllPid, compassPid]
 end
@@ -68,7 +68,9 @@ task :deploy do
     f.write(read_and_merge(data_files))
   end
   sh "compass compile ./_sass -e #{ENV['ENV'] || 'production'}"
-  sh "git add _config.yml"
-  sh "git commit -qm 'Update _config.yml at #{Time.now}'"
+  if `git status --porcelain 2> /dev/null`.strip.include?("_config.yml")
+    sh "git add _config.yml"
+    sh "git commit -qm 'Update _config.yml at #{Time.now}'"
+  end
   sh "git push"
 end
