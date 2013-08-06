@@ -1,0 +1,22 @@
+name: The Class Notes
+tagline: Cornell University's Original Co-Ed A Cappella Group
+email: classnotes@cornell.edu
+
+emails:
+  general: classnotes@cornell.edu
+  gm: gm@theclassnotes.com
+  md: md@theclassnotes.com
+
+permalink: "/:year/:month/:day/:title/"
+markdown: redcarpet
+relative_permalinks: false
+
+twitter:
+  name: theclassnotes
+  link: http://twitter.com/theclassnotes
+facebook:
+  name: theclassnotes
+  link: http://facebook.com/theclassnotes
+youtube:
+  name: cornellclassnotes
+  link: http://youtube.com/cornellclassnotes
