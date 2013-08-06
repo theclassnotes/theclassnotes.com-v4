@@ -9,6 +9,7 @@ emails:
 
 permalink: "/:year/:month/:day/:title/"
 markdown: redcarpet
+relative_permalinks: false
 
 twitter:
   name: theclassnotes
