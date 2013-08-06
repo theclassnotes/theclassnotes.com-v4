@@ -1,0 +1,16 @@
+---
+layout: page
+title: Alumni
+permalink: /alumni/
+---
+
+<h2>Before us came...</h2>
+
+To our beloved alumni, help us stay in touch by updating your photo and contact info with
+our <a href="mailto:gm@theclassnotes.com">GM</a>. Also, be sure to
+<a href="mailto:gm@theclassnotes.com?subject=Alumni%20Listserve">join the alumni listserve</a>
+to receive news and updates from all generations of Class Notes.
+
+{% for year in (1983..2012) reversed %}
+  {% include alumni.html year=year %}
+{% endfor %}
