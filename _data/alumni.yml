@@ -2,11 +2,61 @@
 # Alumni
 #################################
 alumni:
-  -
-    year: 2012
-    name: Maya
-    picture: Maya.JPG
+  #################################
+  # 2012
+  #################################
   -
     year: 2012
     name: Ha Lim Lee
-    picture: HaLim.JPG
+    picture: Halim.png
+  -
+    year: 2012
+    name: Alexander Hahn
+    picture: Hahn.png
+  -
+    year: 2012
+    name: Lacey Steinel
+    picture: Lacey.png
+  -
+    year: 2012
+    name: Alex Martino
+    picture: Martino.JPG
+  -
+    year: 2012
+    name: Maya Gunaseharan
+    picture: Maya.JPG
+  -
+    year: 2012
+    name: Lindsay McDonald
+    picture: Lindsay.JPG
+  -
+    year: 2012
+    name: Thomas Shepherd
+    picture: Thomas.JPG
+  -
+    year: 2012
+    name: 'Liankun "Luke" Zhu'
+    picture: Luke.png
+  -
+    year: 2012
+    name: Mitchell Davis
+    picture: Mitchell.JPG
+  #################################
+  # 2011
+  #################################
+  -
+    year: 2011
+    name: Grace Epstein
+    picture: Grace.png
+  -
+    year: 2011
+    name: Cassie Greene
+    picture: Cassie.png
+  -
+    year: 2011
+    name: Gwendolyn Waichman
+    picture: Gwen.png
+  -
+    year: 2011
+    name: Jacob Chamoun
+    picture: Jacob.png

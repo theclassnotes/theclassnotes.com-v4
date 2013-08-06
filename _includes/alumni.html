@@ -23,7 +23,7 @@
             <tbody>
               {% for alumn in site.alumni %}
                 {% if alumn.year == include.year %}
-                  <tr>
+                  {% if forloop.index0 % 4 == 0 %}<tr class="{{forloop.index0}}">{% endif %}
                     <td>
                       {% if alumn.picture %}
                         <img src="/images/alumni/{{ include.year }}/{{ alumn.picture }}" width="56" height="65" border="0">
@@ -31,7 +31,7 @@
                         <img src="/images/alumni/empty.gif" width="56" height="65" border="0">
                       {% endif %}
                     </td>
-                  </tr>
+                  {% if loop_index % 4 == 0 %}</tr>{% endif %}
                 {% endif %}
               {% endfor %}
             </tbody>
