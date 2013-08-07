@@ -14,6 +14,8 @@
 
 .content {
   @include right-column;
+  width: 72%;
+  margin-left: 2%;
 }
 
 @import "posts";

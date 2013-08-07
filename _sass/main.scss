@@ -15,6 +15,7 @@ body {
   @include background(image-url("free-texture-noearaujo.jpg"), $Beige);
   font: 18px/1.5 $FontStack;
   font-size: small;
+  //font-weight: lighter;
   text-align: center;
 }
 
