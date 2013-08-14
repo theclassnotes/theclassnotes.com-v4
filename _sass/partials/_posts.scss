@@ -13,9 +13,10 @@
 }
 
 .post-date {
-  margin-top: 8px;
+  margin: 8px 0;
   color: $DarkGrey;
   font-weight: lighter;
+  font-size: 0.8em;
 }
 
 .post-content {
@@ -28,9 +29,12 @@
   margin-bottom: 0;
   margin-left: 0;
   margin-right: 0;
-  border-bottom: 2px solid #D4D6D7;
   font-size: 19px;
   line-height: 1.2;
+  padding: 1em;
+  &:nth-child(2n+1) {
+    background-color: $Beige;
+  }
 
   &:first-child {
     margin-top: 0;

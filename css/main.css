@@ -1081,9 +1081,10 @@ a:visited {
   line-height: 1em; }
 
 .post-date {
-  margin-top: 8px;
+  margin: 8px 0;
   color: #565658;
-  font-weight: lighter; }
+  font-weight: lighter;
+  font-size: 0.8em; }
 
 .post-content {
   color: #251E20;
@@ -1094,9 +1095,11 @@ a:visited {
   margin-bottom: 0;
   margin-left: 0;
   margin-right: 0;
-  border-bottom: 2px solid #D4D6D7;
   font-size: 19px;
-  line-height: 1.2; }
+  line-height: 1.2;
+  padding: 1em; }
+  .post:nth-child(2n+1) {
+    background-color: #f2f3f5; }
   .post:first-child {
     margin-top: 0; }
   .post:last-child {
