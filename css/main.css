@@ -1171,3 +1171,8 @@ table.alumniEmail {
     height: 150px; }
   .current_notes .position {
     font-style: italic; }
+
+.repertoire tr:nth-child(2n+1) {
+  background-color: #f2f3f5; }
+.repertoire td {
+  padding: 0.5em 0; }
