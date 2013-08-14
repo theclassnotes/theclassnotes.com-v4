@@ -1155,3 +1155,15 @@ table.alumniEmail {
   width: 100%;
   text-align: left;
   margin: 0 auto; }
+
+.current_notes {
+  text-align: center;
+  width: 100%;
+  margin: 0 0 2em 0; }
+  .current_notes .name {
+    font-weight: bold; }
+  .current_notes .picture {
+    width: 125px;
+    height: 150px; }
+  .current_notes .position {
+    font-style: italic; }

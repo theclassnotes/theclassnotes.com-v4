@@ -1,0 +1,15 @@
+.current_notes {
+  text-align: center;
+  width: 100%;
+  margin: 0 0 2em 0;
+  .name {
+    font-weight: bold;
+  }
+  .picture {
+    width: 125px;
+    height: 150px;
+  }
+  .position {
+    font-style: italic;
+  }
+}
