@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,500,700,400italic,100,100italic);
 /*****************************************************************************/
 /*
@@ -1179,3 +1180,58 @@ table.alumniEmail {
   background-color: #f2f3f5; }
 .repertoire td {
   padding: 0.5em 0; }
+
+.show-on-mobiles {
+  display: none; }
+
+/* Responsive Stuff */
+@media screen and (max-width: 568px) {
+  /* Stack anything that isn’t full-width on smaller screens */
+  .grid .unit {
+    width: 100% !important;
+    padding-left: 20px;
+    padding-right: 20px; }
+
+  .unit .grid .unit {
+    padding-left: 0px;
+    padding-right: 0px; }
+
+  /* Sometimes, you just want to be different on small screens */
+  .center-on-mobiles {
+    text-align: center !important; }
+
+  .hide-on-mobiles {
+    display: none !important; }
+
+  .show-on-mobiles {
+    display: block !important; }
+
+  a .show-on-mobiles {
+    display: inline !important; }
+
+  .site {
+    width: 90%; }
+
+  .header .left, .header .right {
+    margin: 0;
+    width: 100%;
+    float: none; }
+  .header .navigation {
+    margin: 0;
+    text-align: center; }
+    .header .navigation li {
+      float: none; }
+
+  .main-nav-mobile {
+    width: 100%;
+    font-size: 1.4em;
+    padding: 0 5%; }
+    .main-nav-mobile select {
+      width: 90%;
+      margin: 0 auto;
+      font-size: 1.4em; }
+
+  .logo {
+    text-align: center; }
+    .logo .show-on-mobiles {
+      font-size: 0.5em; } }

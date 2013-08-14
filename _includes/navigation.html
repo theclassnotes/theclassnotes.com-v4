@@ -1,4 +1,4 @@
-<nav class="navigation">
+<nav class="navigation hide-on-mobiles">
   <ul>
     <li><a href="/" class="{% if page.url == '/index.html' or page.path contains '_posts' %}current{% endif %}">updates</a></li>
     <li><a href="/about-us/" class="{% if page.url == '/about-us/' %}current{% endif %}">about us</a></li>
@@ -10,3 +10,16 @@
     <li><a href="/contact-us/" class="{% if page.url contains '/contact/' %}current{% endif %}">contact</a></li>
   </ul>
 </nav>
+<div class="show-on-mobiles main-nav-mobile">
+  <select onchange="if (this.value) window.location.href=this.value">
+    <option value="">Navigate...</option>
+    <option value="/">Updates</option>
+    <option value="/about-us/">About Us</option>
+    <option value="/discography/">Discography</option>
+    <option value="/repertoire/">Repertoire</option>
+    <option value="/members/">Members</option>
+    <option value="/history/">History</option>
+    <option value="/audition/">Audition</option>
+    <option value="/contact/">Contact</option>
+  </select>
+</div>

@@ -24,6 +24,6 @@ We are extremely proud to announce that we will be releasing our 9th studio albu
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
 
-(Please email the Parker at gm@theclassnotes.com to arrange pick-up in Ithaca.)
+(Please email the Parker at {{ site.links.gm_email }} to arrange pick-up in Ithaca.)
 
 Production credits and special thanks go to Doug Epstein, Ben Lieberman, and Carl Taylor, Chris Juengel, and Eric Scholz of Liquid 5th.
