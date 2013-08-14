@@ -6,4 +6,4 @@ gem "redcarpet"
 gem "compass"
 
 gem "guard-compass"
-gem "guard-jekyll-plus"
+gem "guard-jekyll-plus", "1.4.6"

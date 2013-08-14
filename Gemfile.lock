@@ -79,7 +79,7 @@ PLATFORMS
 DEPENDENCIES
   compass
   guard-compass
-  guard-jekyll-plus
+  guard-jekyll-plus (= 1.4.6)
   jekyll (~> 1.1.2)
   rake (~> 10.0)
   redcarpet
