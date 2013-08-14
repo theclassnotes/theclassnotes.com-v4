@@ -1156,6 +1156,10 @@ table.alumniEmail {
   text-align: left;
   margin: 0 auto; }
 
+.members h1 {
+  text-align: center;
+  width: 100%; }
+
 .current_notes {
   text-align: center;
   width: 100%;
