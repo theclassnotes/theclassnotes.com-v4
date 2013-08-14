@@ -14,8 +14,8 @@ For the audition, please prepare a 30 second solo that showcases your voice. The
 
 Please e-mail us with any questions! We look forward to hearing from you!
 
-Jeffrey Schwartz (Musical Director) - md@theclassnotes.com<br>
-Chris Donaldson (General Manager) - gm@theclassnotes.com
+Jeffrey Schwartz (Musical Director) - [{{site.emails.md}}](mailto:{{site.emails.md}})<br>
+Chris Donaldson (General Manager) - [{{site.emails.gm}}](mailto:{{site.emails.gm}})
 
-[facebook.com/theclassnotes](http://facebook.com/theclassnotes)<br>
-[youtube.com/cornellclassnotes](www.youtube.com/cornellclassnotes)
+[facebook.com/theclassnotes]({{ site.facebook.link }})<br>
+[youtube.com/cornellclassnotes]({{ site.youtube.link }})
