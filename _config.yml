@@ -184,6 +184,11 @@ current_notes:
       position:
   gentlemen:
     -
+      name: Joe Neumeyer '16
+      picture: Joe.jpg
+      part: Baritone
+      position:
+    -
       name: Jeffrey Schwartz '14
       picture: Jeff.jpg
       part: Tenor
@@ -196,11 +201,6 @@ current_notes:
     -
       name: Parker Moore '14
       picture: Parker.jpg
-      part: Baritone
-      position:
-    -
-      name: Joe Neumeyer '16
-      picture: Joe.jpg
       part: Baritone
       position:
     -
