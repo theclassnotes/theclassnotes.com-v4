@@ -14,7 +14,7 @@
 # guard 'compass', :project_path => 'not_current_dir', :configuration_file => 'path/to/my/compass_config.rb'
 guard :compass, configuration_file: './_sass/config.rb'
 
-guard "jekyll-plus" do
+guard "jekyll-plus", serve: ENV["JEKYLL_SERVE"] do
   watch /.*/
   ignore /^_site/
 end
