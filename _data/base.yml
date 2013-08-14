@@ -21,4 +21,10 @@ youtube:
   name: cornellclassnotes
   link: http://youtube.com/cornellclassnotes
 
-exclude: ['Guardfile']
+exclude:
+  - 'Guardfile'
+  - 'Gemfile*'
+  - '.gitignore'
+  - 'Rakefile'
+  - 'README.markdown'
+

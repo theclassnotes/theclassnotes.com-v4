@@ -3,7 +3,55 @@
 #################################
 
 current_notes:
-  -
-    name: Parker Moore
-    picture: Parker.png
-    part: Baritone
+  ladies:
+    -
+      name: Catherine Rieflin '15
+      picture: Catherine.jpg
+      part: Soprano
+      position:
+    -
+      name: Jessica Li '15
+      picture: Jessica.jpg
+      part: Alto
+      position: Co-Musical Director
+    -
+      name: Emily Woisin '15
+      picture: Emily.jpg
+      part: Alto
+      position: Publicity Manager
+    -
+      name: Alex Griffen '14
+      picture: Alex.jpg
+      part: Alto
+      position:
+  gentlemen:
+    -
+      name: Jeffrey Schwartz '14
+      picture: Jeff.jpg
+      part: Tenor
+      position: Co-Musical Director
+    -
+      name: Ethan Fuld '16
+      picture: Ethan.jpg
+      part: Tenor
+      position: Treasurer
+    -
+      name: Parker Moore '14
+      picture: Parker.jpg
+      part: Baritone
+      position:
+    -
+      name: Joe Neumeyer '16
+      picture: Joe.jpg
+      part: Baritone
+      position:
+    -
+      name: Chris Donaldson '14
+      picture: Chris.jpg
+      part: Baritone
+      position: General Manager
+    -
+      name: Dan "The Man" Rosenthal '15
+      picture: Dan.jpg
+      part: Baritone
+      position: Currently Abroad
