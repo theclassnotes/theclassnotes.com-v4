@@ -148,6 +148,8 @@ youtube:
   name: cornellclassnotes
   link: http://youtube.com/cornellclassnotes
 
+exclude: ['Guardfile']
+
 #################################
 # Current Notes
 #################################
