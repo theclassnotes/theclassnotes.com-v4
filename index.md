@@ -3,6 +3,8 @@ layout: default
 title: Home
 ---
 
+## Latest News
+
 {% for post in site.posts limit:5 %}
   {% include post_listing.html %}
 {% endfor %}
