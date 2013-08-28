@@ -24,3 +24,5 @@ Only* compilation album.
 [a varied repertoire]: /repertoire/
 [comprised of 8 ladies and 8 gentlemen]: /members/
 [records studio albums]: /discography/
+[buy on iTunes]: https://itunes.apple.com/us/album/full-disclosure/id591217829
+[stream on Spotify]: http://open.spotify.com/album/3zgdIPtEijUbLJW3cXfaLu
