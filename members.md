@@ -11,7 +11,7 @@ permalink: /members/
         <tr>
             {% for note in site.current_notes.ladies limit:4 %}
             <td class="picture">
-                <img src="/images/notes/{{ note.picture }}" alt="{{ note.name }}" width="125" height="150">
+                <img src="/images/notes/{{ note.picture }}" alt="{{ note.name }}" width="150" height="150">
             </td>
             {% endfor %}
         </tr>
@@ -38,7 +38,7 @@ permalink: /members/
         <tr>
             {% for note in site.current_notes.ladies limit:4 offset:4 %}
             <td class="picture">
-                <img src="/images/notes/{{ note.picture }}" alt="{{ note.name }}" width="125" height="150">
+                <img src="/images/notes/{{ note.picture }}" alt="{{ note.name }}" width="150" height="150">
             </td>
             {% endfor %}
         </tr>
@@ -67,7 +67,7 @@ permalink: /members/
         <tr>
             {% for note in site.current_notes.gentlemen limit:4 %}
             <td class="picture">
-                <img src="/images/notes/{{ note.picture }}" alt="{{ note.name }}" width="125" height="150">
+                <img src="/images/notes/{{ note.picture }}" alt="{{ note.name }}" width="150" height="150">
             </td>
             {% endfor %}
         </tr>
@@ -94,7 +94,7 @@ permalink: /members/
         <tr>
             {% for note in site.current_notes.gentlemen limit:4 offset:4 %}
             <td class="picture">
-                <img src="/images/notes/{{ note.picture }}" alt="{{ note.name }}" width="125" height="150">
+                <img src="/images/notes/{{ note.picture }}" alt="{{ note.name }}" width="150" height="150">
             </td>
             {% endfor %}
         </tr>
