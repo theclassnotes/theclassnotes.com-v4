@@ -5,17 +5,17 @@
 /* Common
 /*
 /*****************************************************************************/
-/*
+/*!
 Pure v0.2.2-pre
 Copyright 2013 Yahoo! Inc. All rights reserved.
 Licensed under the BSD License.
 https://github.com/yui/pure/blob/master/LICENSE.md
 */
-/*
+/*!
 normalize.css v1.1.2 | MIT License | git.io/normalize
 Copyright (c) Nicolas Gallagher and Jonathan Neal
 */
-/* normalize.css v1.1.2 | MIT License | git.io/normalize */
+/*! normalize.css v1.1.2 | MIT License | git.io/normalize */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
   display: block; }
 
@@ -1021,6 +1021,7 @@ a:visited {
       color: #565658;
       -webkit-transition: all 0.5s ease;
       -moz-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
       -o-transition: all 0.5s ease;
       transition: all 0.5s ease; }
       .header .navigation a.current, .header .navigation a:hover {
