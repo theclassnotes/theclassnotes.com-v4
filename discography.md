@@ -8,3 +8,5 @@ permalink: /discography/
 
 In its short 29-year existence, The Class Notes has produced six studio albums
 and one EP.
+
+{% include albums.html %}
