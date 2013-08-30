@@ -1,0 +1,32 @@
+/*****************************************************************************/
+/*
+/* Pages - Discography
+/*
+/*****************************************************************************/
+
+.album-listing {
+  margin-bottom: 1em;
+}
+
+.album-cover {
+  text-align: center
+}
+
+.album-title {
+  text-align: center;
+}
+
+.album-tracks {
+  width: 100%;
+  font-size: 0.85em;
+  .col1 {
+    width: 50%;
+    padding: 0 5px 0 0;
+    text-align: right;
+  }
+  .col2 {
+    width: 49%;
+    padding: 0 0 0 5px;
+    text-align: left;
+  }
+}

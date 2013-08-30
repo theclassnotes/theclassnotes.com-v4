@@ -1,16 +1,20 @@
 {% for album in site.albums %}
 
-<img src="/images/albums/{{ album.picture }}">
+<div class="album-listing">
+  <div class="album-cover">
+    <img src="/images/albums/{{ album.picture }}">
+  </div>
 
-<h3>{{ album.name }}</h3>
-<p>{{ album.blurb }}</p>
+  <h2 class="album-title">{{ album.name }}</h2>
+  <p>{{ album.blurb }}</p>
 
-<table class="album-tracks {{ album.name }}">
-{% tablerow track in album.tracks cols:2 %}
-  <strong>{{ tablerowloop.index }}. {{ track.title }} - {{ track.soloist }}</strong>
-  <br/>
-  Orig: {{ track.opb }}
-{% endtablerow %}
-</table>
+  <table class="album-tracks {{ album.name }}">
+  {% tablerow track in album.tracks cols:2 %}
+    <strong>{{ tablerowloop.index }}. {{ track.title }} - {{ track.soloist }}</strong>
+    <br/>
+    Orig: {{ track.opb }}
+  {% endtablerow %}
+  </table>
+</div>
 
 {% endfor %}
