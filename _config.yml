@@ -1,6 +1,6 @@
 albums:
   - name: Full Disclosure
-    picture: full-disclosure.jpg
+    picture: full_disclosure.png
     release_date: November, 2013
     blurb: ""
     tracks:
