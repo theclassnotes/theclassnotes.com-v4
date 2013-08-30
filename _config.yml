@@ -83,7 +83,6 @@ albums:
       - title: Only You
         soloist: Jacob Chamoun, Cassie Greene
         opb: Yaz
-
 #################################
 # Alumni
 #################################
@@ -246,7 +245,6 @@ exclude:
   - 'Rakefile'
   - 'README.markdown'
 
-
 #################################
 # Current Notes
 #################################
@@ -304,7 +302,6 @@ current_notes:
       picture: Dan.jpg
       part: Baritone
       position: Currently Abroad
-
 prose:
   metadata:
     _posts:
@@ -322,7 +319,6 @@ prose:
           element: "text"
           label: "Title"
           value: ""
-
 #################################
 # Repertoire
 #################################
