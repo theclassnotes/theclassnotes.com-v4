@@ -4,9 +4,41 @@
 
 current_repertoire:
 -
+  title: Sweet Nothing
+  original_artist: Calvin Harris, Florence Welch
+  soloist: "Catherine Rieflin '15"
+  arranger:
+-
+  title: Let Me Love You
+  original_artist: NeYo
+  soloist: "Joe Neumeyer '16"
+  arranger:
+-
+  title: Put the Gun Down
+  original_artist: ZZ Ward
+  soloist: "Emily Woisin '16"
+  arranger:
+-
+  title: Gone, Gone, Gone
+  original_artist: Phillip Phillips
+  soloist: "Ethan Fuld '16"
+  arranger:
+-
+  title: I Feel The Earth Move
+  original_artist: Carole King
+  soloist: "Emily Woisin '16"
+  arranger: "Jeff Schwartz '13"
+-
+  title: Daylight
+  original_artist: Marron 5
+  soloist: "Jeff Schwartz '14"
+  arranger: "Julian Ordman '13"
+
+recently_retired_repertoire:
+-
   title: Best Thing I Never Had
   original_artist: Beyonce
-  soloist: "Emily Woisin '12"
+  soloist: "Emily Woisin '16"
   arranger: "Julian Ordman '13"
 -
   title: Blown Away
@@ -19,16 +51,6 @@ current_repertoire:
   soloist: "Julian Ordman '13"
   arranger: "Julian Ordman '13"
 -
-  title: Dark Side
-  original_artist: Kelly Clarkson
-  soloist: "Catherine Rieflin '15"
-  arranger: "Julian Ordman '13"
--
-  title: Daylight
-  original_artist: Marron 5
-  soloist: "Jeff Schwartz '14"
-  arranger: "Julian Ordman '13"
--
   title: Fine By Me
   original_artist: Andy Grammer
   soloist: "Chris Donaldson '14"
@@ -39,10 +61,10 @@ current_repertoire:
   soloist: "Emma Thanhauser '13"
   arranger: "Julian Ordman '13"
 -
-  title: I Feel The Earth Move
-  original_artist: Carole King
-  soloist: "Emily Woisin '16"
-  arranger: "Jeff Schwartz '13"
+  title: Dark Side
+  original_artist: Kelly Clarkson
+  soloist: "Catherine Rieflin '15"
+  arranger: "Julian Ordman '13"
 -
   title: "I Won't Give Up"
   original_artist: Jason Mraz
@@ -68,8 +90,6 @@ current_repertoire:
   original_artist: Natalie Imbruglia
   soloist: "Katie Rosenberger '16"
   arranger: "Michael Tang '06"
-
-recently_retired_repertoire:
 -
   title: "25 Miles"
   original_artist: Edwin Starr
