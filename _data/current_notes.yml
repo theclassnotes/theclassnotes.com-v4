@@ -8,17 +8,17 @@ current_notes:
       name: Catherine Rieflin '15
       picture: Catherine.JPG
       part: Soprano
-      position:
+      position: President
     -
       name: Jessica Li '15
       picture: Jessica.JPG
       part: Alto
-      position: Co-Musical Director
+      position:
     -
       name: Emily Woisin '15
       picture: Emily.jpg
       part: Alto
-      position: Publicity Manager
+      position: General Manager
     -
       name: Alex Griffen '14
       picture: Alex.JPG
@@ -26,32 +26,27 @@ current_notes:
       position:
   gentlemen:
     -
-      name: Joe Neumeyer '16
-      picture: Joe.jpg
-      part: Baritone
-      position:
-    -
       name: Jeffrey Schwartz '14
       picture: Jeff.jpg
       part: Tenor
-      position: Co-Musical Director
+      position: Musical Director
     -
       name: Ethan Fuld '16
       picture: Ethan.jpg
       part: Tenor
       position: Treasurer
     -
+      name: Joe Neumeyer '16
+      picture: Joe.jpg
+      part: Baritone
+      position: Social Chair
+    -
       name: Parker Moore '14
       picture: Parker.JPG
-      part: Baritone
+      part: Bass
       position:
-    -
-      name: Chris Donaldson '14
-      picture: Chris.png
-      part: Baritone
-      position: General Manager
     -
       name: Dan Rosenthal '15
       picture: Dan.jpg
-      part: Baritone
+      part: Bass
       position: Currently Abroad

@@ -3,6 +3,25 @@
 #################################
 alumni:
   #################################
+  # 2013
+  #################################
+  -
+    year: 2013
+    name: Chris Donaldson
+    picture: Chris.png
+  -
+    year: 2013
+    name: Julian Ordman
+    picture: Julian.png
+  -
+    year: 2013
+    name: Emma Thanhauser
+    picture: Emma.png
+  -
+    year: 2013
+    name: Supriya Kumar
+    picture: Supriya.JPG
+  #################################
   # 2012
   #################################
   -
