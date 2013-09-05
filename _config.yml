@@ -250,7 +250,6 @@ exclude:
   - '.gitignore'
   - 'Rakefile'
   - 'README.markdown'
-
 #################################
 # Current Notes
 #################################
