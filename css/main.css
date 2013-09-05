@@ -1078,7 +1078,7 @@ a:visited {
 /*****************************************************************************/
 .post-title {
   display: block;
-  font-size: 2.5em;
+  font-size: 1.3em;
   line-height: 1em; }
 
 .post-date {
@@ -1088,19 +1088,21 @@ a:visited {
   font-size: 0.8em; }
 
 .post-content {
-  color: #251E20;
-  font-weight: lighter; }
+  color: #251E20; }
 
 .post {
   margin-top: 0.7em;
   margin-bottom: 0;
   margin-left: 0;
   margin-right: 0;
-  font-size: 19px;
-  line-height: 1.2;
-  padding: 1em; }
+  font-size: 1.1em;
+  line-height: 1.4;
+  padding: 1em;
+  text-align: left; }
   .post:nth-child(2n+1) {
     background-color: #f2f3f5; }
+  .post:nth-child(2n+2) {
+    background-color: #fbfbfc; }
   .post:first-child {
     margin-top: 0; }
   .post:last-child {
@@ -1202,10 +1204,12 @@ table.alumniEmail {
   .current_notes .position {
     font-style: italic; }
 
+.repertoire table {
+  width: 100%; }
 .repertoire tr:nth-child(2n+1) {
   background-color: #f2f3f5; }
 .repertoire td {
-  padding: 0.5em 0;
+  padding: 0.5em 0.25em;
   text-align: left; }
 
 .show-on-mobiles {
@@ -1261,4 +1265,7 @@ table.alumniEmail {
   .logo {
     text-align: center; }
     .logo .show-on-mobiles {
-      font-size: 0.5em; } }
+      font-size: 0.5em; }
+
+  .content {
+    width: 100%; } }
