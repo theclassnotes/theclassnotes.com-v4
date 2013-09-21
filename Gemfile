@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 gem "rake", "~> 10.0"
-gem "github-pages"
+gem "github-pages", ">= 6"
 gem "redcarpet"
 gem "compass"
 
