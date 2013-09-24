@@ -2,12 +2,12 @@
 
 set -e
 
-ls
-
 echo 'compiling SCSS...'
 bundle exec compass compile -c ./_sass/config.rb
+echo
 
 echo 'compiling the jekyll site...'
 bundle exec jekyll build --trace
+echo
 
 echo 'success'
