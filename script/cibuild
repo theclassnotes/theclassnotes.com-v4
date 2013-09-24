@@ -2,6 +2,8 @@
 
 set -e
 
+ls
+
 echo 'compiling SCSS...'
 bundle exec compass compile -c ./_sass/config.rb
 

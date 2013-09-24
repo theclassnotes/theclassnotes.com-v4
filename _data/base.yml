@@ -34,3 +34,4 @@ exclude:
   - '.gitignore'
   - 'Rakefile'
   - 'README.markdown'
+  - 'vendor'
