@@ -1,4 +1,11 @@
 #! /bin/bash
 
-compass compile -c ./_sass/config.rb
-jekyll build
+set -e
+
+echo 'compiling SCSS...'
+bundle exec compass compile -c ./_sass/config.rb
+
+echo 'compiling the jekyll site...'
+bundle exec jekyll build
+
+echo 'success'
