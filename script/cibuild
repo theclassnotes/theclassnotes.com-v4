@@ -6,6 +6,6 @@ echo 'compiling SCSS...'
 bundle exec compass compile -c ./_sass/config.rb
 
 echo 'compiling the jekyll site...'
-bundle exec jekyll build
+bundle exec jekyll build --trace
 
 echo 'success'
