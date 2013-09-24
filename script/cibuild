@@ -1,0 +1,4 @@
+#! /bin/bash
+
+compass compile -c ./_sass/config.rb
+jekyll build
