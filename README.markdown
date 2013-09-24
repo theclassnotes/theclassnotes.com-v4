@@ -5,7 +5,7 @@ is the fourth, with a focus on simplicity, accessibility (to non-techies - much 
 for prose.io) and speed. Jekyll + GitHub Pages fits the bill from a technology standpoint,
 and Eric's splendid design does an outstanding job with the content.
 
-This site is presently a work-in-progress.
+[![Build Status](https://travis-ci.org/theclassnotes/theclassnotes.github.io.png?branch=master)](https://travis-ci.org/theclassnotes/theclassnotes.github.io)
 
 ### Credits
 
