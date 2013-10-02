@@ -2,3 +2,9 @@ language: ruby
 rvm:
   2.0.0
 script: ./script/cibuild
+notifications:
+  email:
+    recipients:
+      - parkrmoore@gmail.com
+    on_success: change
+    on_failure: change
