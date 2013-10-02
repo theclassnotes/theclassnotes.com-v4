@@ -266,10 +266,25 @@ exclude:
 current_notes:
   ladies:
     -
+      name: Melissa Romanovich '17
+      picture:  Melissa.jpg
+      part: Soprano
+      position: Publicity Manager
+    -
       name: Catherine Rieflin '15
       picture: Catherine.JPG
       part: Soprano
       position: President
+    -
+      name: Stef Wu '17
+      picture: Stef.jpg
+      part: Mezzo-Soprano
+      position: Co-Concert Manager
+    -
+      name: Nishat Yasmin '16
+      picture: Nishat.jpg
+      part: Mezzo-Soprano
+      position:
     -
       name: Jessica Li '15
       picture: Jessica.JPG
@@ -291,6 +306,11 @@ current_notes:
       picture: Jeff.jpg
       part: Tenor
       position: Musical Director
+    -
+      name: Manuel Calder&oacute;n Tamayo GRAD
+      picture: Manuel.jpg
+      part: Tenor
+      position:
     -
       name: Ethan Fuld '16
       picture: Ethan.jpg
