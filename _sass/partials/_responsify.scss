@@ -4,17 +4,6 @@
 
 /* Responsive Stuff */
 @media screen and (max-width: 568px) {
-  /* Stack anything that isn’t full-width on smaller screens */
-  .grid .unit {
-    width: 100% !important;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  .unit .grid .unit {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-
   /* Sometimes, you just want to be different on small screens */
   .center-on-mobiles {
     text-align: center !important;
@@ -60,9 +49,5 @@
     .show-on-mobiles {
         font-size: 0.5em;
       }
-  }
-
-  .content {
-    width: 100%;
   }
 }
