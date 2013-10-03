@@ -15,23 +15,27 @@
 
         <link rel="alternate"  href="/atom.xml" title="{{ site.name }} - {{ site.tagline }}" type="application/atom+xml">
         <link rel="stylesheet" href="/css/font-awesome.css">
+        <link rel="stylesheet" href="/css/gridism.css">
         <link rel="stylesheet" href="/css/main.css">
 
     </head>
     <body class="{{ page.permalink | remove:"/" }}">
 
-        <div class="container">
+        <div class="container grid">
 
           {% include social.html %}
 
-          <div class="site">
+          <div class="site unit whole">
+
             {% include header.html %}
 
-            <div class="content-container">
+            <div class="content-container unit whole">
 
-              {% include sidebar.html %}
+              <div class="unit one-quarter">
+                {% include sidebar.html %}
+              </div>
 
-              <div class="content">
+              <div class="unit three-quarters content">
                 {{ content }}
               </div>
 
