@@ -15,7 +15,6 @@ body {
   @include background(image-url("free-texture-noearaujo.jpg"), $Beige);
   font: 18px/1.5 $FontStack;
   font-size: small;
-  //font-weight: lighter;
   text-align: center;
 }
 
@@ -33,13 +32,15 @@ a:visited { color: $Red; }
 /*
 /*****************************************************************************/
 
+.container {
+  width: 72%;
+  margin: 0 auto;
+}
+
 .site {
-  @include main-center;
   background-color: darken(white, 2%);
   font-size: 115%;
   text-align: justify;
-  padding: 2%;
-  margin: 0 auto 2em;
   line-height: 1.5em;
 }
 
