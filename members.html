@@ -1,0 +1,35 @@
+---
+layout: default
+title: Members
+permalink: /members/
+---
+
+<h1 id="ladies">Ladies</h1>
+
+<div class="unit whole">
+  {% for note in site.current_notes.ladies %}
+  <div class="unit one-quarter member">
+    <div class="picture">
+        <img src="/images/notes/{{ note.picture }}" alt="{{ note.name }}" width="150" height="150">
+    </div>
+    <div class="name">{{ note.name }}</div>
+    <div class="part">{{ note.part }}</div>
+    <div class="position">{{ note.position }}</div>
+  </div>
+  {% endfor %}
+</div>
+
+<h1 id="gentlemen">Gentlemen</h1>
+
+<div class="unit whole">
+  {% for note in site.current_notes.gentlemen %}
+  <div class="unit one-quarter member">
+    <div class="picture">
+        <img src="/images/notes/{{ note.picture }}" alt="{{ note.name }}" width="150" height="150">
+    </div>
+    <div class="name">{{ note.name }}</div>
+    <div class="part">{{ note.part }}</div>
+    <div class="position">{{ note.position }}</div>
+  </div>
+  {% endfor %}
+</div>

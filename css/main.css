@@ -1166,16 +1166,16 @@ table.alumniEmail {
   text-align: center;
   width: 100%; }
 
-.current_notes {
+.member {
   text-align: center;
-  width: 100%;
-  margin: 0 0 2em 0; }
-  .current_notes .name {
+  min-width: 160px;
+  min-height: 260px; }
+  .member .name {
     font-weight: bold; }
-  .current_notes .picture {
+  .member .picture {
     width: 125px;
     height: 150px; }
-  .current_notes .position {
+  .member .position {
     font-style: italic; }
 
 .repertoire tr:nth-child(2n+1) {
