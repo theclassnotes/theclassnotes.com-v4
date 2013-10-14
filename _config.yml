@@ -370,7 +370,7 @@ current_repertoire:
   soloist: "Emily Woisin '16"
   arranger:
 -
-  title: Gone, Gone, Gone
+  title: "Gone, Gone, Gone"
   original_artist: Phillip Phillips
   soloist: "Ethan Fuld '16"
   arranger:
@@ -380,10 +380,20 @@ current_repertoire:
   soloist: "Emily Woisin '16"
   arranger: "Jeff Schwartz '13"
 -
-  title: Daylight
-  original_artist: Marron 5
-  soloist: "Jeff Schwartz '14"
-  arranger: "Julian Ordman '13"
+  title: Here Comes Goodbye
+  original_artist: Rascal Flatts
+  soloist: ""
+  arranger: "Jeff Schwartz '13"
+-
+  title: Stars
+  original_artist: "Grace Potter & The Nocturnals"
+  soloist: ""
+  arranger: Julian Ordman, Stef Wu,
+-
+  title: "OK, It's Alright with Me"
+  original_artist: Eric Hutchinson
+  soloist: ""
+  arranger: Luke Zhu '12
 
 recently_retired_repertoire:
 -
@@ -400,6 +410,11 @@ recently_retired_repertoire:
   title: Chariot
   original_artist: Gavin DeGraw
   soloist: "Julian Ordman '13"
+  arranger: "Julian Ordman '13"
+-
+  title: Daylight
+  original_artist: Maroon 5
+  soloist: "Jeff Schwartz '14"
   arranger: "Julian Ordman '13"
 -
   title: Fine By Me
