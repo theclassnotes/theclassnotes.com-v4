@@ -1178,8 +1178,6 @@ table.alumniEmail {
   .current_notes .position {
     font-style: italic; }
 
-.repertoire table {
-  width: 100%; }
 .repertoire tr:nth-child(2n+1) {
   background-color: #f2f3f5; }
 .repertoire td {
