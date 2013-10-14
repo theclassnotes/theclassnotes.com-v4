@@ -4,45 +4,45 @@
 
 current_repertoire:
 -
-  title: Sweet Nothing
-  original_artist: Calvin Harris, Florence Welch
-  soloist: "Catherine Rieflin '15"
-  arranger:
+  title: Stars
+  original_artist: "Grace Potter & The Nocturnals"
+  soloist: ""
+  arranger: "Julian Ordman '13, Stef Wu '17, Nishat Yasmin '17"
 -
-  title: Let Me Love You
-  original_artist: NeYo
-  soloist: "Joe Neumeyer '16"
-  arranger:
--
-  title: Put the Gun Down
-  original_artist: ZZ Ward
-  soloist: "Emily Woisin '16"
-  arranger:
--
-  title: "Gone, Gone, Gone"
-  original_artist: Phillip Phillips
-  soloist: "Ethan Fuld '16"
-  arranger:
--
-  title: I Feel The Earth Move
-  original_artist: Carole King
-  soloist: "Emily Woisin '16"
-  arranger: "Jeff Schwartz '13"
+  title: "OK, It's Alright with Me"
+  original_artist: Eric Hutchinson
+  soloist: ""
+  arranger: Luke Zhu '12
 -
   title: Here Comes Goodbye
   original_artist: Rascal Flatts
   soloist: ""
   arranger: "Jeff Schwartz '13"
 -
-  title: Stars
-  original_artist: "Grace Potter & The Nocturnals"
-  soloist: ""
-  arranger: Julian Ordman, Stef Wu,
+  title: Sweet Nothing
+  original_artist: Calvin Harris, Florence Welch
+  soloist: "Catherine Rieflin '15"
+  arranger: Julian Ordman '13
 -
-  title: "OK, It's Alright with Me"
-  original_artist: Eric Hutchinson
-  soloist: ""
-  arranger: Luke Zhu '12
+  title: Let Me Love You
+  original_artist: NeYo
+  soloist: "Joe Neumeyer '16"
+  arranger: Julian Ordman '13
+-
+  title: Put the Gun Down
+  original_artist: ZZ Ward
+  soloist: "Emily Woisin '16"
+  arranger: "Jeff Schwartz '14, Luke Zhu '12, Julian Ordman '13"
+-
+  title: "Gone, Gone, Gone"
+  original_artist: Phillip Phillips
+  soloist: "Ethan Fuld '16"
+  arranger: Julian Ordman '13
+-
+  title: I Feel The Earth Move
+  original_artist: Carole King
+  soloist: "Emily Woisin '16"
+  arranger: "Jeff Schwartz '13"
 
 recently_retired_repertoire:
 -
