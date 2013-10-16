@@ -2,36 +2,45 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-        <meta name="keywords" content="{{ site.keywords | join:"," }}">
-        <meta name="robots" content="index, follow">
+        <meta http-equiv="Content-Type"    content="text/html; charset=UTF-8">
+        <meta name="description"           content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+        <meta name="keywords"              content="{{ site.keywords | join:"," }}">
+        <meta name="robots"                content="index, follow">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+        <meta name="viewport"              content="width=device-width,initial-scale=1,user-scalable=no">
 
-        {% include open_graph.html %}
+        <meta property="og:type"        content="theclassnoteswebsite:page" >
+        <meta property="og:url"         content="{{ site.url }}{{ page.url }}" >
+        <meta property="og:title"       content="{{ page.title }} / {{ site.name }}" >
+        <meta property="og:site_name"   content="{{ site.name }} - {{ site.tagline }}" >
+        <meta property="og:image"       content="{{ site.url }}/images/theclassnotes.png">
+        <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" >
 
         <title>{{ page.title }} / {{ site.name }} - {{ site.tagline }}</title>
 
         <link rel="alternate"  href="/atom.xml" title="{{ site.name }} - {{ site.tagline }}" type="application/atom+xml">
         <link rel="stylesheet" href="/css/font-awesome.css">
+        <link rel="stylesheet" href="/css/gridism.css">
         <link rel="stylesheet" href="/css/main.css">
 
     </head>
     <body class="{{ page.permalink | remove:"/" }}">
 
-        <div class="container">
+        <div class="container grid">
 
           {% include social.html %}
 
-          <div class="site">
+          <div class="site unit whole">
+
             {% include header.html %}
 
-            <div class="content-container">
+            <div class="content-container unit whole">
 
-              {% include sidebar.html %}
+              <div class="unit one-quarter">
+                {% include sidebar.html %}
+              </div>
 
-              <div class="content">
+              <div class="unit three-quarters content">
                 {{ content }}
               </div>
 

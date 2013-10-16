@@ -1,9 +1,6 @@
 @import "../variables";
 
 .repertoire {
-  table {
-    width: 100%;
-  }
   tr:nth-child(2n+1) {
     background-color: $Beige;
   }

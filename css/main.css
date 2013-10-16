@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,500,700,400italic,100,100italic);
 /*****************************************************************************/
 /*
@@ -958,18 +957,17 @@ a:visited {
 /* Site
 /*
 /*****************************************************************************/
+.container {
+  width: 72%;
+  margin: 0 auto; }
+
 .site {
-  width: 64%;
   background-color: #fafafa;
   font-size: 115%;
   text-align: justify;
-  padding: 2%;
-  margin: 0 auto 2em;
   line-height: 1.5em; }
 
 .social {
-  width: 64%;
-  margin: 1.25em auto;
   text-align: right; }
   .social a {
     color: #565658;
@@ -985,62 +983,51 @@ a:visited {
 /* Header
 /*
 /*****************************************************************************/
-.header {
-  overflow: hidden;
-  *zoom: 1; }
-  .header .left {
+.header .logo {
+  font-size: 5em;
+  line-height: 0.9em;
+  text-align: right;
+  font-weight: bold; }
+.header h2.page-title {
+  float: left;
+  font-weight: normal;
+  margin: 0.5em 0 0 8px;
+  padding: 0;
+  font-size: 4em;
+  line-height: 1.4em; }
+.header .navigation {
+  float: left;
+  margin: 4.25em 0 0 0;
+  text-transform: uppercase;
+  line-height: 1em;
+  font-size: 1.75em; }
+  .header .navigation a {
+    font-weight: lighter;
+    color: #565658;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+    .header .navigation a.current, .header .navigation a:hover {
+      text-decoration: none;
+      background-color: #e20000;
+      color: #251e20; }
+  .header .navigation ul {
     float: left;
-    height: 100%;
-    width: 24%;
-    margin-right: 1%; }
-  .header .right {
-    float: left;
-    height: 100%;
-    width: 73%;
-    margin-left: 1%; }
-  .header .logo {
-    font-size: 5em;
-    line-height: 0.9em;
-    text-align: right;
-    font-weight: bold; }
-  .header h2.page-title {
-    float: left;
-    font-weight: normal;
-    margin: 0.5em 0 0 8px;
+    list-style-type: none;
     padding: 0;
-    font-size: 4em;
-    line-height: 1.4em; }
-  .header .navigation {
-    float: left;
-    margin: 4.25em 0 0 0;
-    text-transform: uppercase;
-    line-height: 1em;
-    font-size: 1.75em; }
-    .header .navigation a {
-      font-weight: lighter;
-      color: #565658;
-      -webkit-transition: all 0.5s ease;
-      -moz-transition: all 0.5s ease;
-      -o-transition: all 0.5s ease;
-      transition: all 0.5s ease; }
-      .header .navigation a.current, .header .navigation a:hover {
-        text-decoration: none;
-        background-color: #e20000;
-        color: #251e20; }
-    .header .navigation ul {
+    margin: 0; }
+    .header .navigation ul li {
       float: left;
-      list-style-type: none;
-      padding: 0;
-      margin: 0; }
-      .header .navigation ul li {
-        float: left;
-        margin: 2px;
-        display: block; }
-        .header .navigation ul li a {
-          display: block;
-          float: left;
-          padding: 8px;
-          font-weight: lighter; }
+      margin: 2px;
+      display: block; }
+      .header .navigation ul li a.unit {
+        display: block;
+        padding-right: 8px;
+        padding-left: 8px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        font-weight: lighter; }
 
 /*****************************************************************************/
 /*
@@ -1059,17 +1046,7 @@ a:visited {
 /*
 /*****************************************************************************/
 .content-container {
-  overflow: hidden;
-  *zoom: 1;
   margin-top: 2%; }
-
-.content {
-  float: left;
-  height: 100%;
-  width: 73%;
-  margin-left: 1%;
-  width: 72%;
-  margin-left: 2%; }
 
 /*****************************************************************************/
 /*
@@ -1128,11 +1105,8 @@ a:visited {
   border-top: 4px solid #eee;
   margin-top: 2em;
   overflow: hidden; }
-  .site .footer .contact {
-    float: left;
-    margin-right: 3em; }
-    .site .footer .contact a {
-      color: #8085C1; }
+  .site .footer .contact a {
+    color: #8085C1; }
 
 /*****************************************************************************/
 /*
@@ -1192,20 +1166,18 @@ table.alumniEmail {
   text-align: center;
   width: 100%; }
 
-.current_notes {
+.member {
   text-align: center;
-  width: 100%;
-  margin: 0 0 2em 0; }
-  .current_notes .name {
+  min-width: 160px;
+  min-height: 260px; }
+  .member .name {
     font-weight: bold; }
-  .current_notes .picture {
+  .member .picture {
     width: 125px;
     height: 150px; }
-  .current_notes .position {
+  .member .position {
     font-style: italic; }
 
-.repertoire table {
-  width: 100%; }
 .repertoire tr:nth-child(2n+1) {
   background-color: #f2f3f5; }
 .repertoire td {
@@ -1217,16 +1189,6 @@ table.alumniEmail {
 
 /* Responsive Stuff */
 @media screen and (max-width: 568px) {
-  /* Stack anything that isn’t full-width on smaller screens */
-  .grid .unit {
-    width: 100% !important;
-    padding-left: 20px;
-    padding-right: 20px; }
-
-  .unit .grid .unit {
-    padding-left: 0px;
-    padding-right: 0px; }
-
   /* Sometimes, you just want to be different on small screens */
   .center-on-mobiles {
     text-align: center !important; }
@@ -1239,6 +1201,9 @@ table.alumniEmail {
 
   a .show-on-mobiles {
     display: inline !important; }
+
+  .grid .unit {
+    padding-left: 0 !important; }
 
   .site {
     width: 90%; }
@@ -1265,7 +1230,4 @@ table.alumniEmail {
   .logo {
     text-align: center; }
     .logo .show-on-mobiles {
-      font-size: 0.5em; }
-
-  .content {
-    width: 100%; } }
+      font-size: 0.5em; } }

@@ -4,35 +4,45 @@
 
 current_repertoire:
 -
+  title: Stars
+  original_artist: "Grace Potter & The Nocturnals"
+  soloist: ""
+  arranger: "Julian Ordman '13, Stef Wu '17, Nishat Yasmin '17"
+-
+  title: "OK, It's Alright with Me"
+  original_artist: Eric Hutchinson
+  soloist: ""
+  arranger: Luke Zhu '12
+-
+  title: Here Comes Goodbye
+  original_artist: Rascal Flatts
+  soloist: ""
+  arranger: "Jeff Schwartz '14"
+-
   title: Sweet Nothing
   original_artist: Calvin Harris, Florence Welch
   soloist: "Catherine Rieflin '15"
-  arranger:
+  arranger: Julian Ordman '13
 -
   title: Let Me Love You
   original_artist: NeYo
   soloist: "Joe Neumeyer '16"
-  arranger:
+  arranger: Julian Ordman '13
 -
   title: Put the Gun Down
   original_artist: ZZ Ward
   soloist: "Emily Woisin '16"
-  arranger:
+  arranger: "Jeff Schwartz '14, Luke Zhu '12, Julian Ordman '13"
 -
-  title: Gone, Gone, Gone
+  title: "Gone, Gone, Gone"
   original_artist: Phillip Phillips
   soloist: "Ethan Fuld '16"
-  arranger:
+  arranger: Julian Ordman '13
 -
   title: I Feel The Earth Move
   original_artist: Carole King
   soloist: "Emily Woisin '16"
-  arranger: "Jeff Schwartz '13"
--
-  title: Daylight
-  original_artist: Marron 5
-  soloist: "Jeff Schwartz '14"
-  arranger: "Julian Ordman '13"
+  arranger: "Jeff Schwartz '14"
 
 recently_retired_repertoire:
 -
@@ -49,6 +59,11 @@ recently_retired_repertoire:
   title: Chariot
   original_artist: Gavin DeGraw
   soloist: "Julian Ordman '13"
+  arranger: "Julian Ordman '13"
+-
+  title: Daylight
+  original_artist: Maroon 5
+  soloist: "Jeff Schwartz '14"
   arranger: "Julian Ordman '13"
 -
   title: Fine By Me

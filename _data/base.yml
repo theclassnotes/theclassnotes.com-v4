@@ -43,3 +43,4 @@ exclude:
   - 'Rakefile'
   - 'README.markdown'
   - 'vendor'
+  - '.sass-cache'

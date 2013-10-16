@@ -4,19 +4,10 @@
 /*
 /*****************************************************************************/
 
-@import "compass/utilities/general/clearfix";
 @import "compass/css3/transition";
 @import "variables";
 
 .header {
-  @include clearfix;
-
-  .left {
-    @include left-column;
-  }
-  .right {
-    @include right-column;
-  }
 
   .logo {
     font-size: 5em;
@@ -64,10 +55,12 @@
         margin: 2px;
         display: block;
 
-        a {
+        a.unit {
           display: block;
-          float: left;
-          padding: 8px;
+          padding-right: 8px;
+          padding-left: 8px;
+          padding-top: 8px;
+          padding-bottom: 8px;
           font-weight: lighter;
         }
       }
