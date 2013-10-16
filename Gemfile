@@ -7,3 +7,5 @@ gem "compass"
 
 gem "guard-compass"
 gem "guard-jekyll-plus", "1.4.6"
+
+gem 'html-proofer'

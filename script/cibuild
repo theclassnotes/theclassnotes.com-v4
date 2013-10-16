@@ -10,4 +10,6 @@ echo 'compiling the jekyll site...'
 bundle exec jekyll build --trace
 echo
 
+bundle exec ruby -e "require 'html/proofer';HTML::Proofer.new('./_site').run"
+
 echo 'success'
