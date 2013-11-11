@@ -5,7 +5,7 @@
   <th>Soloist</th>
   <th>Arranger</th>
 </tr>
-{% for song in site.recently_retired_repertoire %}
+{% for song in site.data.repertoire.retired %}
 <tr>
   <td>{{ song.title }}</td>
   <td>{{ song.original_artist }}</td>

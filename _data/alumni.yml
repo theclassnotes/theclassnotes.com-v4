@@ -1,146 +1,146 @@
 #################################
 # Alumni
 #################################
-alumni:
-  #################################
-  # 2013
-  #################################
-  -
-    year: 2013
-    name: Chris Donaldson
-    picture: Chris.png
-  -
-    year: 2013
-    name: Julian Ordman
-    picture: Julian.png
-  -
-    year: 2013
-    name: Emma Thanhauser
-    picture: Emma.png
-  -
-    year: 2013
-    name: Supriya Kumar
-    picture: Supriya.JPG
-  #################################
-  # 2012
-  #################################
-  -
-    year: 2012
-    name: Ha Lim Lee
-    picture: Halim.png
-  -
-    year: 2012
-    name: Alexander Hahn
-    picture: Hahn.png
-  -
-    year: 2012
-    name: Lacey Steinel
-    picture: Lacey.png
-  -
-    year: 2012
-    name: Alex Martino
-    picture: Martino.JPG
-  -
-    year: 2012
-    name: Maya Gunaseharan
-    picture: Maya.JPG
-  -
-    year: 2012
-    name: Lindsay McDonald
-    picture: Lindsay.JPG
-  -
-    year: 2012
-    name: Thomas Shepherd
-    picture: Thomas.JPG
-  -
-    year: 2012
-    name: 'Liankun "Luke" Zhu'
-    picture: Luke.png
-  -
-    year: 2012
-    name: Mitchell Davis
-    picture: Mitchell.JPG
-  #################################
-  # 2011
-  #################################
-  -
-    year: 2011
-    name: Grace Epstein
-    picture: Grace.png
-  -
-    year: 2011
-    name: Cassie Greene
-    picture: Cassie.png
-  -
-    year: 2011
-    name: Gwendolyn Waichman
-    picture: Gwen.png
-  -
-    year: 2011
-    name: Jacob Chamoun
-    picture: Jacob.png
-  #################################
-  # 2010
-  #################################
-  -
-    year: 2010
-    name: Olga Desyatnik
-    picture: olga.gif
-  -
-    year: 2010
-    name: Rachel Kleinman
-    picture: rachel.gif
-  -
-    year: 2010
-    name: Steve Linderman
-    picture: steve.gif
-  #################################
-  # 2009
-  #################################
-  -
-    year: 2009
-    name: Eugene Chang
-    picture: Eugene.gif
-  -
-    year: 2009
-    name: Scott Hayes
-    picture: Scott.gif
-  -
-    year: 2009
-    name: Natalie Pierro
-    picture: Natalie.gif
-  -
-    year: 2009
-    name: Alex Woogmaster
-    picture: woog.gif
-  #################################
-  # 2008
-  #################################
-  -
-    year: 2008
-    name: Anderson Clark
-    picture: anderson.gif
-  -
-    year: 2008
-    name: Jill Lange
-  -
-    year: 2008
-    name: Andrew Majak
-  -
-    year: 2008
-    name: Natasha Major
-  -
-    year: 2008
-    name: Amanda Soled
-    picture: amanda.gif
-  -
-    year: 2008
-    name: Phil Torres
-    picture: phil.gif
-  #################################
-  # 2007
-  #################################
-  -
-    year: 2007
-    name: Nellie Thompson
-    picture: nellie.gif
+
+#################################
+# 2013
+#################################
+-
+  year: 2013
+  name: Chris Donaldson
+  picture: Chris.png
+-
+  year: 2013
+  name: Julian Ordman
+  picture: Julian.png
+-
+  year: 2013
+  name: Emma Thanhauser
+  picture: Emma.png
+-
+  year: 2013
+  name: Supriya Kumar
+  picture: Supriya.JPG
+#################################
+# 2012
+#################################
+-
+  year: 2012
+  name: Ha Lim Lee
+  picture: Halim.png
+-
+  year: 2012
+  name: Alexander Hahn
+  picture: Hahn.png
+-
+  year: 2012
+  name: Lacey Steinel
+  picture: Lacey.png
+-
+  year: 2012
+  name: Alex Martino
+  picture: Martino.JPG
+-
+  year: 2012
+  name: Maya Gunaseharan
+  picture: Maya.JPG
+-
+  year: 2012
+  name: Lindsay McDonald
+  picture: Lindsay.JPG
+-
+  year: 2012
+  name: Thomas Shepherd
+  picture: Thomas.JPG
+-
+  year: 2012
+  name: 'Liankun "Luke" Zhu'
+  picture: Luke.png
+-
+  year: 2012
+  name: Mitchell Davis
+  picture: Mitchell.JPG
+#################################
+# 2011
+#################################
+-
+  year: 2011
+  name: Grace Epstein
+  picture: Grace.png
+-
+  year: 2011
+  name: Cassie Greene
+  picture: Cassie.png
+-
+  year: 2011
+  name: Gwendolyn Waichman
+  picture: Gwen.png
+-
+  year: 2011
+  name: Jacob Chamoun
+  picture: Jacob.png
+#################################
+# 2010
+#################################
+-
+  year: 2010
+  name: Olga Desyatnik
+  picture: olga.gif
+-
+  year: 2010
+  name: Rachel Kleinman
+  picture: rachel.gif
+-
+  year: 2010
+  name: Steve Linderman
+  picture: steve.gif
+#################################
+# 2009
+#################################
+-
+  year: 2009
+  name: Eugene Chang
+  picture: Eugene.gif
+-
+  year: 2009
+  name: Scott Hayes
+  picture: Scott.gif
+-
+  year: 2009
+  name: Natalie Pierro
+  picture: Natalie.gif
+-
+  year: 2009
+  name: Alex Woogmaster
+  picture: woog.gif
+#################################
+# 2008
+#################################
+-
+  year: 2008
+  name: Anderson Clark
+  picture: anderson.gif
+-
+  year: 2008
+  name: Jill Lange
+-
+  year: 2008
+  name: Andrew Majak
+-
+  year: 2008
+  name: Natasha Major
+-
+  year: 2008
+  name: Amanda Soled
+  picture: amanda.gif
+-
+  year: 2008
+  name: Phil Torres
+  picture: phil.gif
+#################################
+# 2007
+#################################
+-
+  year: 2007
+  name: Nellie Thompson
+  picture: nellie.gif

@@ -1,5 +1,0 @@
-#! /bin/bash
-
-go run script/build_data.go
-git add _config.yml
-git commit -m "Build _config.yml from _data"

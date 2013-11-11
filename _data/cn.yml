@@ -1,3 +1,7 @@
+#################################
+# The Class Notes Info
+#################################
+
 name: The Class Notes
 tagline: Cornell University's Original Co-Ed A Cappella Group
 email: classnotes@cornell.edu
@@ -21,25 +25,3 @@ links:
   gm_email: "[gm@theclassnotes.com](mailto:gm@theclassnotes.com)"
   md_email: "[md@theclassnotes.com](mailto:md@theclassnotes.com)"
   pres_email: "[president@theclassnotes.com](mailto:president@theclassnotes.com)"
-
-permalink: "/:year/:month/:day/:title/"
-markdown: redcarpet
-relative_permalinks: false
-
-twitter:
-  name: theclassnotes
-  link: http://twitter.com/theclassnotes
-facebook:
-  name: theclassnotes
-  link: http://facebook.com/theclassnotes
-youtube:
-  name: cornellclassnotes
-  link: http://youtube.com/cornellclassnotes
-
-exclude:
-  - 'Guardfile'
-  - 'Gemfile*'
-  - '.gitignore'
-  - 'Rakefile'
-  - 'README.markdown'
-  - 'vendor'

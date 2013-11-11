@@ -6,7 +6,7 @@
         <td width="35%">
           <table class="alumniEmail" border="0" cellpadding="0" cellspacing="0" summary="">
             <tbody>
-              {% for alumn in site.alumni %}
+              {% for alumn in site.data.alumni %}
                 {% if alumn.year == include.year %}
                 <tr>
                   <td>
@@ -22,7 +22,7 @@
           <table class="alumniPics" border="0" cellpadding="0" cellspacing="0" summary="">
             <tbody>
               {% capture modulo %}first{% endcapture %}
-              {% for alumn in site.alumni %}
+              {% for alumn in site.data.alumni %}
                 {% if alumn.year == include.year %}
                   {% if modulo == "first" %}<tr>{% endif %}
                     <td class="{{ modulo }}">
