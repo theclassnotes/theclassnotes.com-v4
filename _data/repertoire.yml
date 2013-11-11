@@ -2,7 +2,7 @@
 # Repertoire
 #################################
 
-current_repertoire:
+current:
 -
   title: Sweet Nothing
   original_artist: Calvin Harris, Florence Welch
@@ -34,7 +34,7 @@ current_repertoire:
   soloist: "Jeff Schwartz '14"
   arranger: "Julian Ordman '13"
 
-recently_retired_repertoire:
+retired:
 -
   title: Best Thing I Never Had
   original_artist: Beyonce
