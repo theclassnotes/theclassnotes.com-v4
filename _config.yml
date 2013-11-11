@@ -8,3 +8,21 @@ exclude:
   - 'Rakefile'
   - 'README.markdown'
   - 'vendor'
+
+prose:
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Published?"
+          value: "true"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
