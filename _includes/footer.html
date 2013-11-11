@@ -1,23 +1,23 @@
 <div class="footer">
   <div class="contact">
     <p>
-      {{ site.name }}<br />
-      {{ site.tagline }}<br />
-      <a href="mailto:{{ site.email }}">
-        {{ site.email }}
+      {{ site.data.cn.name }}<br />
+      {{ site.data.cn.tagline }}<br />
+      <a href="mailto:{{ site.data.cn.email }}">
+        {{ site.data.cn.email }}
       </a>
     </p>
   </div>
   <div class="contact">
     <p>
-      <a href="{{ site.twitter.link }}">
-        twitter.com/{{ site.twitter.name }}
+      <a href="{{ site.data.social.twitter.link }}">
+        twitter.com/{{ site.data.social.twitter.name }}
       </a><br />
-      <a href="{{ site.facebook.link }}">
-        facebook.com/{{ site.facebook.name }}
+      <a href="{{ site.data.social.facebook.link }}">
+        facebook.com/{{ site.data.social.facebook.name }}
       </a><br />
       <a href="{{ site.youtube.link }}">
-        youtube.com/{{ site.youtube.name }}
+        youtube.com/{{ site.data.social.youtube.name }}
       </a><br />
     </p>
   </div>

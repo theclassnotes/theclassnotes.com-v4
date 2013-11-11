@@ -12,12 +12,12 @@ at Rockefeller Center in New York City. Add a touch of class to your next event!
 **General Inquiries:**<br>
 Catherine Rieflin<br>
 President<br>
-{{ site.links.pres_email }}
+{{ site.data.cn.links.pres_email }}
 
 **Gig Requests:**<br>
 Emily Woisin<br>
 General Manager<br>
-{{ site.links.gm_email }}
+{{ site.data.cn.links.gm_email }}
 
 **Mail**:<br>
 The Class Notes<br>

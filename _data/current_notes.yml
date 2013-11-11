@@ -2,71 +2,70 @@
 # Current Notes
 #################################
 
-current_notes:
-  ladies:
-    -
-      name: Melissa Romanovich '17
-      picture:  Melissa.jpg
-      part: Soprano
-      position: Publicity Manager
-    -
-      name: Catherine Rieflin '15
-      picture: Catherine.JPG
-      part: Soprano
-      position: President
-    -
-      name: Stef Wu '17
-      picture: Stef.jpg
-      part: Mezzo-Soprano
-      position: Co-Concert Manager
-    -
-      name: Nishat Yasmin '16
-      picture: Nishat.jpg
-      part: Mezzo-Soprano
-      position:
-    -
-      name: Jessica Li '15
-      picture: Jessica.JPG
-      part: Alto
-      position:
-    -
-      name: Emily Woisin '16
-      picture: Emily.jpg
-      part: Alto
-      position: General Manager
-    -
-      name: Alex Griffen '14
-      picture: Alex.JPG
-      part: Alto
-      position: Tour Manager
-  gentlemen:
-    -
-      name: Jeffrey Schwartz '14
-      picture: Jeff.jpg
-      part: Tenor
-      position: Musical Director
-    -
-      name: Manuel Calder&oacute;n Tamayo GRAD
-      picture: Manuel.jpg
-      part: Tenor
-      position:
-    -
-      name: Ethan Fuld '16
-      picture: Ethan.jpg
-      part: Tenor
-      position: Treasurer
-    -
-      name: Joe Neumeyer '16
-      picture: Joe.jpg
-      part: Baritone
-      position: Social Chair
-    -
-      name: Parker Moore '14
-      picture: Parker.JPG
-      part: Bass
-      position: Co-Concert Manager
-    -
-      name: Dan Rosenthal '15
-      picture: Dan.jpg
-      part: Bass
-      position: Currently Abroad
+ladies:
+  -
+    name: Melissa Romanovich '17
+    picture:  Melissa.jpg
+    part: Soprano
+    position: Publicity Manager
+  -
+    name: Catherine Rieflin '15
+    picture: Catherine.JPG
+    part: Soprano
+    position: President
+  -
+    name: Stef Wu '17
+    picture: Stef.jpg
+    part: Mezzo-Soprano
+    position: Co-Concert Manager
+  -
+    name: Nishat Yasmin '16
+    picture: Nishat.jpg
+    part: Mezzo-Soprano
+    position:
+  -
+    name: Jessica Li '15
+    picture: Jessica.JPG
+    part: Alto
+    position:
+  -
+    name: Emily Woisin '16
+    picture: Emily.jpg
+    part: Alto
+    position: General Manager
+  -
+    name: Alex Griffen '14
+    picture: Alex.JPG
+    part: Alto
+    position: Tour Manager
+gentlemen:
+  -
+    name: Jeffrey Schwartz '14
+    picture: Jeff.jpg
+    part: Tenor
+    position: Musical Director
+  -
+    name: "Manuel Calder&oacute;n Tamayo GRAD"
+    picture: Manuel.jpg
+    part: Tenor
+    position:
+  -
+    name: Ethan Fuld '16
+    picture: Ethan.jpg
+    part: Tenor
+    position: Treasurer
+  -
+    name: Joe Neumeyer '16
+    picture: Joe.jpg
+    part: Baritone
+    position: Social Chair
+  -
+    name: Parker Moore '14
+    picture: Parker.JPG
+    part: Bass
+    position: Co-Concert Manager
+  -
+    name: Dan Rosenthal '15
+    picture: Dan.jpg
+    part: Bass
+    position: Currently Abroad

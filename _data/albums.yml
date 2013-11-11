@@ -31,9 +31,10 @@
 - name: Black Tie Optional
   picture: black-tie-optional-new.jpg
   release_date: "April, 2010"
-  blurb: "After a three-year lull, The Class Notes is back with a hit album
+  blurb: |
+    After a three-year lull, The Class Notes is back with a hit album
     featuring an exquisite blend of traditional Class Notes staples as well
-    as a selection of soulful and playful tunes.""
+    as a selection of soulful and playful tunes.
   tracks:
     - title: No One
       soloist: Gwen Waichman
