@@ -10,4 +10,6 @@ echo 'compiling the jekyll site...'
 bundle exec jekyll build --trace
 echo
 
+bundle exec ./script/html-proofer
+
 echo 'success'
