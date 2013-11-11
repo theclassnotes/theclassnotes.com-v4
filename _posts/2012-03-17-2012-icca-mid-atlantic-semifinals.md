@@ -4,7 +4,7 @@ published: true
 title: "2012 ICCA Mid-Atlantic Semifinals!"
 ---
 
-<img src="/images/classNotesAtRutgers.jpg" alt="" style="float: right; margin: 4px;">
+![The Class Notes sing 'Streetcorner Symphony' by Rob Thomas](/images/classNotesAtRutgers.jpg){:class="hang-right"}
 
 We had a great time at ICCA Semifinals at Rutgers this past weekend. Many thanks to Mark
 McCarthy for helping us out with hotel rooms, our host group Deep Treble for getting us
