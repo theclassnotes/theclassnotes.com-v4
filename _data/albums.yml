@@ -1,70 +1,73 @@
-albums:
-  - name: Full Disclosure
-    picture: full_disclosure.png
-    release_date: November, 2013
-    blurb: ""
-    tracks:
-      - title: Best Thing I Never Had
-        soloist: Maya Gunaseharan
-        opb: Beyoncé
-      - title: Battlefield
-        soloist: Gwen Waichman
-        opb: Jordin Sparks
-      - title: Streetcorner Symphony
-        soloist: Parker Moore
-        opb: Rob Thomas
-      - title: Breakeven
-        soloist: Grace Epstein
-        opb: The Script
-      - title: Set Fire to the Rain
-        soloist: Alex Griffen
-        opb: Adele
-      - title: Misery
-        soloist: Thomas Shepherd
-        opb: Maroon 5
-      - title: Perfect
-        soloist: Lacey Caroline
-        opb: "P!nk"
-  - name: Black Tie Optional
-    picture: black-tie-optional-new.jpg
-    release_date: "April, 2010"
-    blurb: "After a three-year lull, The Class Notes is back with a hit album
-      featuring an exquisite blend of traditional Class Notes staples as well
-      as a selection of soulful and playful tunes."
-    tracks:
-      - title: No One
-        soloist: Gwen Waichman
-        opb: Alicia Keys
-      - title: Someday
-        soloist: Alex Hahn
-        opb: No More Kings
-      - title: Dancing in the Street
-        soloist: Rachel Kleinman
-        opb: Martha and the Vandellas
-      - title: "Nothin' Ever Hurt Like You"
-        soloist: Thomas Shepherd
-        opb: James Morrison
-      - title: Bottle It Up
-        soloist: Grace Epstein
-        opb: Sara Bareilles
-      - title: "King On Me (80's Medley)"
-        soloist: Alex Woogmaster, Steve Linderman, Eugene Chang
-        opb: Go West, Tears for Fears, A-Ha
-      - title: Lucky
-        soloist: Thomas Shepherd, Lindsay McDonald
-        opb: Jason Mraz, Colbie Calliat
-      - title: Shine
-        soloist: Emma Thanhauser
-        opb: Laura Izibor
-      - title: Hometown Glory
-        soloist: Gwen Waichman
-        opb: Adele
-      - title: Whatcha Say
-        soloist: Thomas Shepherd
-        opb: Jason Derulo
-      - title: Honey
-        soloist: Natalie Pierro
-        opb: The Hush Sound
-      - title: Only You
-        soloist: Jacob Chamoun, Cassie Greene
-        opb: Yaz
+#################################
+# Album Listing
+#################################
+
+- name: Full Disclosure
+  picture: full_disclosure.png
+  release_date: "November, 2013"
+  blurb: ""
+  tracks:
+    - title: Best Thing I Never Had
+      soloist: Maya Gunaseharan
+      opb: Beyoncé
+    - title: Battlefield
+      soloist: Gwen Waichman
+      opb: Jordin Sparks
+    - title: Streetcorner Symphony
+      soloist: Parker Moore
+      opb: Rob Thomas
+    - title: Breakeven
+      soloist: Grace Epstein
+      opb: The Script
+    - title: Set Fire to the Rain
+      soloist: Alex Griffen
+      opb: Adele
+    - title: Misery
+      soloist: Thomas Shepherd
+      opb: Maroon 5
+    - title: Perfect
+      soloist: Lacey Caroline
+      opb: 'P!nk'
+- name: Black Tie Optional
+  picture: black-tie-optional-new.jpg
+  release_date: "April, 2010"
+  blurb: "After a three-year lull, The Class Notes is back with a hit album
+    featuring an exquisite blend of traditional Class Notes staples as well
+    as a selection of soulful and playful tunes.""
+  tracks:
+    - title: No One
+      soloist: Gwen Waichman
+      opb: Alicia Keys
+    - title: Someday
+      soloist: Alex Hahn
+      opb: No More Kings
+    - title: Dancing in the Street
+      soloist: Rachel Kleinman
+      opb: Martha and the Vandellas
+    - title: "Nothin' Ever Hurt Like You"
+      soloist: Thomas Shepherd
+      opb: James Morrison
+    - title: Bottle It Up
+      soloist: Grace Epstein
+      opb: Sara Bareilles
+    - title: "King On Me (80's Medley)"
+      soloist: Alex Woogmaster, Steve Linderman, Eugene Chang
+      opb: Go West, Tears for Fears, A-Ha
+    - title: Lucky
+      soloist: Thomas Shepherd, Lindsay McDonald
+      opb: Jason Mraz, Colbie Calliat
+    - title: Shine
+      soloist: Emma Thanhauser
+      opb: Laura Izibor
+    - title: Hometown Glory
+      soloist: Gwen Waichman
+      opb: Adele
+    - title: Whatcha Say
+      soloist: Thomas Shepherd
+      opb: Jason Derulo
+    - title: Honey
+      soloist: Natalie Pierro
+      opb: The Hush Sound
+    - title: Only You
+      soloist: Jacob Chamoun, Cassie Greene
+      opb: Yaz
