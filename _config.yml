@@ -1,5 +1,5 @@
 permalink: "/:year/:month/:day/:title/"
-markdown: redcarpet
+markdown: kramdown
 relative_permalinks: false
 exclude:
   - 'Guardfile'
