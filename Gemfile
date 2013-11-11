@@ -1,11 +1,14 @@
 source "https://rubygems.org"
 
-gem "rake", "~> 10.0"
-gem "github-pages", ">= 6"
-gem "redcarpet"
-gem "compass"
+gem "github-pages", "= 10"
 
-gem "guard-compass"
-gem "guard-jekyll-plus", "1.4.6"
+group :development do
+  gem "rake", "~> 10.0"
+  gem "compass"
+  gem "guard-compass"
+  gem "guard-jekyll-plus", "1.4.6"
+end
 
-gem 'html-proofer'
+group :test do
+  gem "html-proofer"
+end
