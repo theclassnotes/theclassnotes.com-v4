@@ -14,8 +14,8 @@ For the audition, please prepare a 30 second solo that showcases your voice. The
 
 Please e-mail us with any questions! We look forward to hearing from you!
 
-Jeffrey Schwartz (Musical Director) - {{ site.links.md_email }}<br>
-Catherine Rieflin (President) - {{ site.links.pres_email }}
+Jeffrey Schwartz (Musical Director) - {{ site.data.cn.links.md_email }}<br>
+Catherine Rieflin (President) - {{ site.data.cn.links.pres_email }}
 
-[facebook.com/theclassnotes]({{ site.facebook.link }})<br>
-[youtube.com/cornellclassnotes]({{ site.youtube.link }})
+[facebook.com/theclassnotes]({{ site.data.social.facebook.link }})<br>
+[youtube.com/cornellclassnotes]({{ site.data.social.youtube.link }})

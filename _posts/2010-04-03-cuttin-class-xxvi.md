@@ -3,7 +3,7 @@ layout: post
 title: "Cuttin' Class XXVI"
 ---
 
-<img src="/images/posters/2010-cuttin-class-xxvi.jpg" alt="" style="float: right; margin: 4px;">
+<img src="/images/posters/2010-cuttin-class-xxvi.jpg" alt="Cuttin' Class XXVI" style="float: right; margin: 4px;">
 
 <object width="320" height="192"><param name="movie"
 value="http://www.youtube.com/v/Vgr0exOOonU&hl=en_US&fs=1&rel=0"></param><param

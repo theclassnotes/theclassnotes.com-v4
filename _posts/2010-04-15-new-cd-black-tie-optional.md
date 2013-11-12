@@ -3,7 +3,7 @@ layout: post
 title: "New CD - <i>Black Tie Optional</i>"
 ---
 
-<img src="/images/albums/black-tie-optional-new.jpg" style="float: right; margin: 5px;">
+<img src="/images/albums/black-tie-optional-new.jpg" alt="Black Tie Optional Cover" style="float: right; margin: 5px;">
 
 We are thrilled to announce the release of our new CD, Black Tie Optional, which will be
 arriving just in time for Cuttin' Class '10 on Friday, April 23 (see below).
@@ -33,6 +33,6 @@ Optional</option>
   <input type="hidden" name="currency_code" value="USD">
   <input type="image" src="https://www.paypal.com/en_US/i/btn/btn_buynowCC_LG.gif"
   border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-  <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1"
+  <img alt="Paypal Pixel" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1"
   height="1">
 </form>

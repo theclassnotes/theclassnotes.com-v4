@@ -5,6 +5,7 @@
 /*****************************************************************************/
 
 @import "variables";
+@import "compass/utilities/general/clearfix";
 
 .post-title {
   display: block;
@@ -21,6 +22,7 @@
 
 .post-content {
   color: #251E20;
+  @include clearfix;
 }
 
 .post {

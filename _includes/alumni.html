@@ -27,9 +27,9 @@
                   {% if modulo == "first" %}<tr>{% endif %}
                     <td class="{{ modulo }}">
                       {% if alumn.picture %}
-                        <img src="/images/alumni/{{ include.year }}/{{ alumn.picture }}" width="56" height="65" border="0">
+                        <img src="/images/alumni/{{ include.year }}/{{ alumn.picture }}" width="56" height="65" border="0" alt="{{ alumn.name }}">
                       {% else %}
-                        <img src="/images/alumni/empty.gif" width="56" height="65" border="0">
+                        <img src="/images/alumni/empty.gif" width="56" height="65" border="0" alt="No Picture for {{ alumn.name }}">
                       {% endif %}
                     </td>
                   {% if modulo == "fifth" %}</tr>{% endif %}
