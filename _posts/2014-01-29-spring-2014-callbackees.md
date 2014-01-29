@@ -1,5 +1,6 @@
 ---
 title: Spring 2014 Callbacks List
+layout: post
 ---
 
 After hearing a fantastic set of auditionees, we're very pleased to call back
