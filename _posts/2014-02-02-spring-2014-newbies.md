@@ -8,5 +8,7 @@ Thank you again to everyone who came out to audition this Spring! We are proud t
 
 - Matt Munsey '15 (Tenor)
 - Jacob Morgan '17 (Bass)
+- Teddy Billings '17 (Bass)
+- Aaron Gittelman '16 (Bass)
 
 We're super stoked to welcome a new generation of Notes!
