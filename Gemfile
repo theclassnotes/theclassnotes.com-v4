@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "github-pages", "= 10"
+gem "github-pages"
 
 group :development do
   gem "rake", "~> 10.0"
