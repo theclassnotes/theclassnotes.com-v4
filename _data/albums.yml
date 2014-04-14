@@ -1,10 +1,38 @@
 #################################
 # Album Listing
 #################################
-
+- name: "Broken Glass & Cheap Champagne"
+  picture: broken_glass_and_cheap_champagne.jpg
+  release_date: "April, 2014"
+  blurb: ""
+  tracks:
+    - title: Sweet Nothing
+      soloist: Catherine Rieflin
+      opb: Calvin Harris ft. Florence Welch
+    - title: Put the Gun Down
+      soloist: Emma Thanhauser
+      opb: ZZ Ward
+    - title: Let Me Love You
+      soloist: Joseph Neumeyer
+      opb: Ne-Yo
+    - title: Blown Away
+      soloist: Alex Griffen
+      opb: Carrie Underwood
+    - title: Gone Gone Gone
+      soloist: Julian Ordman
+      opb: Phillip Phillips
+    - title: Wrecking Ball
+      soloist: Jessica Li
+      opb: Miley Cyrus
+    - title: I Feel the Earth Move
+      soloist: Emily Woisin
+      opb: Carole King
+    - title: "I Won't Give Up"
+      soloist: Jeff Schwartz
+      opb: Jason Mraz
 - name: Full Disclosure
   picture: full_disclosure.png
-  release_date: "November, 2013"
+  release_date: "November, 2012"
   blurb: ""
   tracks:
     - title: Best Thing I Never Had
