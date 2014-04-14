@@ -17,7 +17,7 @@ ladies:
     name: Stef Wu '17
     picture: Stef.jpg
     part: Mezzo-Soprano
-    position: Co-Concert Manager
+    position: Social Chair
   -
     name: Nishat Yasmin '16
     picture: Nishat.jpg
@@ -27,17 +27,12 @@ ladies:
     name: Jessica Li '15
     picture: Jessica.JPG
     part: Alto
-    position:
+    position: Assistant Musical Director
   -
     name: Emily Woisin '16
     picture: Emily.jpg
     part: Alto
     position: General Manager
-  -
-    name: Alex Griffen '14
-    picture: Alex.JPG
-    part: Alto
-    position: Tour Manager
 gentlemen:
   -
     name: Jeffrey Schwartz '14
@@ -47,6 +42,11 @@ gentlemen:
   -
     name: "Manuel Calder&oacute;n Tamayo GRAD"
     picture: Manuel.jpg
+    part: Tenor
+    position: Concert Manager
+  -
+    name: Matt Munsey '15
+    picture: gentleman.jpg
     part: Tenor
     position:
   -
@@ -58,14 +58,29 @@ gentlemen:
     name: Joe Neumeyer '16
     picture: Joe.jpg
     part: Baritone
-    position: Social Chair
+    position:
+  -
+    name: Aaron Gittelman '16
+    picture: gentleman.jpg
+    part: Baritone
+    position:
   -
     name: Parker Moore '14
     picture: Parker.JPG
     part: Bass
-    position: Co-Concert Manager
+    position: Alumni Coordinator
   -
     name: Dan Rosenthal '15
     picture: Dan.jpg
     part: Bass
-    position: Currently Abroad
+    position:
+  -
+    name: Jacob Morgan '17
+    picture: gentleman.jpg
+    part: Bass
+    position:
+  -
+    name: Teddy Billings '17
+    picture: gentleman.jpg
+    part: Bass
+    position:
