@@ -1,10 +1,10 @@
 @charset "UTF-8";
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,500,700,400italic,100,100italic);
 /*****************************************************************************/
 /*
 /* Common
 /*
 /*****************************************************************************/
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,500,700,400italic,100,100italic);
 /*!
 Pure v0.2.2-pre
 Copyright 2013 Yahoo! Inc. All rights reserved.
@@ -931,7 +931,7 @@ html, body {
   height: 100%; }
 
 body {
-  background: url('/./images/free-texture-noearaujo.jpg?1376446011'), #f2f3f5;
+  background: url('/./images/free-texture-noearaujo.jpg?1390968540'), #f2f3f5;
   font: 18px/1.5 "Roboto", Helvetica, Arial, sans-serif;
   font-size: small;
   text-align: center; }
