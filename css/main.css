@@ -1117,6 +1117,8 @@ img.hang-right {
     margin-top: 5px; }
   .post ul, .post ol {
     margin-left: 1.35em; }
+  .post img {
+    width: 100%; }
 
 /*****************************************************************************/
 /*
