@@ -4,22 +4,48 @@
 
 current:
 -
-  title: Sweet Nothing
-  original_artist: Calvin Harris, Florence Welch
-  soloist: "Catherine Rieflin '15"
-  arranger:
+  title: Morning Comes
+  original_artist: Delta Rae
+  soloist: "Jeffrey Schwartz '14"
+  arranger: "Stef Wu '17"
 -
-  title: Let Me Love You
-  original_artist: NeYo
-  soloist: "Joe Neumeyer '16"
-  arranger:
+  title: Stars
+  original_artist: "Grace Potter & The Nocturnals"
+  soloist: "Nishat Yasmin '16"
+  arranger: "Stef Wu '17"
+-
+  title: Say My Name
+  original_artist: "Destiny's Child"
+  soloist: "Melissa Romanovich '17"
+  arranger: "Julian Ordman '13"
+-
+  title: Give Me Love
+  original_artist: Ed Sheeran
+  soloist: "Parker Moore '14"
+  arranger: "Jeff Schwartz '14"
+-
+  title: Classic
+  original_artist: MKTO
+  soloist: "Manuel Tamayo (Grad), Dan Rosenthal '15 (Rap)"
+  arranger: "Ethan Fuld '16"
+-
+  title: Wrecking Ball
+  original_artist: Miley Cyrus
+  soloist: "Jessica Li '15"
+  arranger: "Julian Ordman '13"
+-
+  title: "OK, It's Alright With Me"
+  original_artist: Eric Hutchinson
+  soloist: "Joseph Neumeyer '16"
+  arranger: "Luke Zhu '12"
 -
   title: Put the Gun Down
   original_artist: ZZ Ward
   soloist: "Emily Woisin '16"
-  arranger:
+  arranger: "Julian Ordman '13"
+retired:
 -
-  title: Gone, Gone, Gone
+  title: "Gone, Gone, Gone"
   original_artist: Phillip Phillips
   soloist: "Ethan Fuld '16"
   arranger:
@@ -33,8 +59,16 @@ current:
   original_artist: Marron 5
   soloist: "Jeff Schwartz '14"
   arranger: "Julian Ordman '13"
-
-retired:
+-
+  title: Let Me Love You
+  original_artist: NeYo
+  soloist: "Joe Neumeyer '16"
+  arranger:
+-
+  title: Sweet Nothing
+  original_artist: "Calvin Harris, Florence Welch"
+  soloist: "Catherine Rieflin '15"
+  arranger:
 -
   title: Best Thing I Never Had
   original_artist: Beyonce
