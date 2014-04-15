@@ -2,6 +2,7 @@
 layout: default
 title: Members
 permalink: /members/
+banner_photo: cuttin-class-xxx-after-brunch.jpg
 ---
 
 # Ladies
