@@ -2,9 +2,10 @@
 layout: page
 title: Our History
 permalink: /history/
+banner_photo: class-notes-chalking-bailey-hall.jpg
 ---
 
-## Prehistory
+## Background
 
 Although many universities had bona fide a cappella groups quite early, Cornell did not
 really adopt the trend until the 1980s when previously non-a cappella groups such as

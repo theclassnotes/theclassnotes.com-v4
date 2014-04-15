@@ -2,6 +2,7 @@
 layout: page
 title: Auditions
 permalink: /auditions/
+banner_photo: catherine-dark-side.jpg
 ---
 
 ## Come be a part of Cornell's original co-ed a cappella group!

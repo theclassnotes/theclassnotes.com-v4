@@ -2,6 +2,7 @@
 layout: page
 title: Contact Us
 permalink: /contact-us/
+banner_photo: 2012-streetcorner-symphony-ilr-seniors-gala.jpg
 ---
 
 The Class Notes have sung at many different events in many different countries. We have

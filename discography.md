@@ -2,6 +2,7 @@
 layout: page
 title: Discography
 permalink: /discography/
+banner_photo: emma-many-the-miles.jpg
 ---
 
 ## Discography

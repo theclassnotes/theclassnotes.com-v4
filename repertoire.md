@@ -2,6 +2,7 @@
 layout: page
 title: Current Repertoire
 permalink: /repertoire/
+banner_photo: set-fire-to-the-rain.jpeg
 ---
 
 ## Current Repertoire

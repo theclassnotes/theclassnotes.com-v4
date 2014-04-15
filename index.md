@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+banner_photo: joseph-okitsalrightwithme-cuttin-class-xxx.jpg
 ---
 
 ## The Latest
