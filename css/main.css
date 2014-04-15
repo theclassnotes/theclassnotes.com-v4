@@ -1011,7 +1011,8 @@ a:visited {
     font-size: 4em;
     line-height: 1.4em; }
   .header .banner-photo {
-    width: 100%; }
+    width: 100%;
+    max-height: 233px; }
 
 .navigation {
   margin: 0.5em 0 0 0;
