@@ -57,7 +57,7 @@ end
 
 desc "Preview"
 task :preview do
-  jekyllPid = Process.spawn("jekyll serve --watch --config #{data_files.join(",")}")
+  jekyllPid = Process.spawn("jekyll serve --watch")
   compassPid = Process.spawn("compass watch -c _sass/config.rb -e #{ENV['ENV'] || 'development'}")
   wait_and_kill [jekyllPid, compassPid]
 end
