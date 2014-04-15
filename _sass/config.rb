@@ -1,3 +1,4 @@
+require "susy"
 sass_dir   = "./_sass"
 css_dir    = "./css"
 images_dir = "./images"
