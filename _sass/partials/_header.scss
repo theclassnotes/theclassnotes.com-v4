@@ -34,42 +34,45 @@
     line-height: 1.4em;
   }
 
-  .navigation {
-    float: left;
-    margin: 4.25em 0 0 0;
-    text-transform: uppercase;
-    line-height: 1em;
-    font-size: 1.75em;
+  .banner-photo {
+    width: 100%;
+  }
+}
 
-    a {
-      font-weight: lighter;
-      color: $DarkGrey;
-      @include single-transition(all, 0.5s, ease);
+.navigation {
+  margin: 0.5em 0 0 0;
+  text-transform: uppercase;
+  line-height: 1em;
+  font-size: 1.75em;
 
-      &.current, &:hover {
-        text-decoration: none;
-        background-color: $Red;
-        color: $Black;
-      }
+  a {
+    font-weight: normal;
+    color: $DarkGrey;
+    @include single-transition(all, 0.5s, ease);
+
+    &.current, &:hover {
+      text-decoration: none;
+      color: $Black;
+      background-color: $Red;
     }
+  }
 
-    ul {
+  ul {
+    @include clearfix;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+    li {
       float: left;
-      list-style-type: none;
-      padding: 0;
-      margin: 0;
+      margin: 2px;
+      display: block;
 
-      li {
-        float: left;
-        margin: 2px;
+      a {
         display: block;
-
-        a {
-          display: block;
-          float: left;
-          padding: 8px;
-          font-weight: lighter;
-        }
+        float: left;
+        padding: 4px;
+        font-weight: lighter;
       }
     }
   }

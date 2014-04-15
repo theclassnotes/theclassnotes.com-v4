@@ -1010,37 +1010,40 @@ a:visited {
     padding: 0;
     font-size: 4em;
     line-height: 1.4em; }
-  .header .navigation {
-    float: left;
-    margin: 4.25em 0 0 0;
-    text-transform: uppercase;
-    line-height: 1em;
-    font-size: 1.75em; }
-    .header .navigation a {
-      font-weight: lighter;
-      color: #565658;
-      -webkit-transition: all 0.5s ease;
-      -moz-transition: all 0.5s ease;
-      -o-transition: all 0.5s ease;
-      transition: all 0.5s ease; }
-      .header .navigation a.current, .header .navigation a:hover {
-        text-decoration: none;
-        background-color: #e20000;
-        color: #251e20; }
-    .header .navigation ul {
+  .header .banner-photo {
+    width: 100%; }
+
+.navigation {
+  margin: 0.5em 0 0 0;
+  text-transform: uppercase;
+  line-height: 1em;
+  font-size: 1.75em; }
+  .navigation a {
+    font-weight: normal;
+    color: #565658;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+    .navigation a.current, .navigation a:hover {
+      text-decoration: none;
+      color: #251e20;
+      background-color: #e20000; }
+  .navigation ul {
+    overflow: hidden;
+    *zoom: 1;
+    list-style-type: none;
+    padding: 0;
+    margin: 0; }
+    .navigation ul li {
       float: left;
-      list-style-type: none;
-      padding: 0;
-      margin: 0; }
-      .header .navigation ul li {
+      margin: 2px;
+      display: block; }
+      .navigation ul li a {
+        display: block;
         float: left;
-        margin: 2px;
-        display: block; }
-        .header .navigation ul li a {
-          display: block;
-          float: left;
-          padding: 8px;
-          font-weight: lighter; }
+        padding: 4px;
+        font-weight: lighter; }
 
 /*****************************************************************************/
 /*
@@ -1200,17 +1203,27 @@ table.alumniEmail {
   text-align: center;
   width: 100%; }
 
-.current_notes {
-  text-align: center;
-  width: 100%;
-  margin: 0 0 2em 0; }
-  .current_notes .name {
+.current-note {
+  float: left;
+  display: table-cell;
+  width: 150px;
+  height: 250px;
+  padding: 0 2px;
+  text-align: center; }
+  .current-note .name {
+    display: block;
     font-weight: bold; }
-  .current_notes .picture {
+  .current-note .picture {
+    display: block;
     width: 125px;
     height: 150px; }
-  .current_notes .position {
+  .current-note .position {
+    display: block;
     font-style: italic; }
+
+.current-notes {
+  overflow: hidden;
+  *zoom: 1; }
 
 .repertoire table {
   width: 100%; }
@@ -1224,6 +1237,21 @@ table.alumniEmail {
   display: none; }
 
 /* Responsive Stuff */
+/* Tablet */
+@media screen and (max-width: 1200px) {
+  /* Stack anything that isn’t full-width on smaller screens */
+  .grid .unit {
+    width: 100% !important;
+    padding-left: 20px;
+    padding-right: 20px; }
+
+  .unit .grid .unit {
+    padding-left: 0px;
+    padding-right: 0px; }
+
+  .site {
+    width: 85%; } }
+/* Phone */
 @media screen and (max-width: 568px) {
   /* Stack anything that isn’t full-width on smaller screens */
   .grid .unit {
