@@ -2,18 +2,28 @@
   text-align: center;
   width: 100%;
 }
-.current_notes {
+.current-note {
+  float: left;
+  display: table-cell;
+  width: 150px;
+  height: 250px;
+  padding: 0 2px;
   text-align: center;
-  width: 100%;
-  margin: 0 0 2em 0;
   .name {
+    display: block;
     font-weight: bold;
   }
   .picture {
+    display: block;
     width: 125px;
     height: 150px;
   }
   .position {
+    display: block;
     font-style: italic;
   }
+}
+
+.current-notes {
+  @include clearfix;
 }
