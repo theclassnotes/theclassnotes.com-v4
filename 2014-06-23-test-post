@@ -1,0 +1,16 @@
+---
+layout: post
+title: I'm a test post!
+banner_photo: matt-munsey-cuttin-class-xxx.jpg
+---
+
+Hey! I'm a test post. I can do cool things too (like links, lists, etc) with Markdown.
+
+Learn more about Markdown: http://daringfireball.net/projects/markdown/
+
+[Learn More about Markdown](http://daringfireball.net/projects/markdown/) &larr; I'm a link!
+
+* And
+* I'm
+* A
+* List
