@@ -1,6 +1,7 @@
 ---
 layout: post
 title: This is a test post
+banner_photo: joseph-okitsalrightwithme-cuttin-class-xxx.jpg
 ---
 
 Hey guys, just testing how to create a new post and edit content on this website via GitHub.
