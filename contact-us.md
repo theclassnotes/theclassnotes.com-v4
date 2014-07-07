@@ -11,12 +11,12 @@ colleges, business functions, and at major events such as the 1999 Christmas Tre
 at Rockefeller Center in New York City. Add a touch of class to your next event!
 
 **General Inquiries:**<br>
-Catherine Rieflin<br>
+Daniel Rosenthal<br>
 President<br>
 {{ site.data.cn.links.pres_email }}
 
 **Gig Requests:**<br>
-Emily Woisin<br>
+Ethan Fuld<br>
 General Manager<br>
 {{ site.data.cn.links.gm_email }}
 
