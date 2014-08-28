@@ -3,7 +3,11 @@
     {% include logo.html %}
   </div>
   <div class="right">
+  {% if page.banner_photo %}
     <img src="/images/banners/{{ page.banner_photo }}" class="banner-photo">
+  {% else %}
+      <img src="/images/banners/2012-streetcorner-symphony-ilr-seniors-gala.jpg" class="banner-photo">
+  {% endif %}
   </div>
 </div>
 {% include navigation.html %}
