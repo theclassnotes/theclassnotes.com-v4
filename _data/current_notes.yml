@@ -7,43 +7,35 @@ ladies:
     name: Melissa Romanovich '17
     picture:  Melissa.jpg
     part: Soprano
-    position: Publicity Manager
+    position: Tour Manager
   -
     name: Catherine Rieflin '15
     picture: Catherine.JPG
     part: Soprano
-    position: President
+    position: 
   -
     name: Stef Wu '17
     picture: Stef.jpg
     part: Mezzo-Soprano
-    position: Social Chair
+    position: Assistant Musical Director
   -
     name: Nishat Yasmin '16
     picture: Nishat.jpg
     part: Mezzo-Soprano
-    position:
+    position: Treasurer
   -
     name: Jessica Li '15
     picture: Jessica.JPG
     part: Alto
-    position: Assistant Musical Director
+    position: Musical Director
   -
     name: Emily Woisin '16
     picture: Emily.jpg
     part: Alto
-    position: General Manager
+    position:
 gentlemen:
-  -
-    name: Jeffrey Schwartz '14
-    picture: Jeff.jpg
-    part: Tenor
-    position: Musical Director
-  -
-    name: "Manuel Calder&oacute;n Tamayo GRAD"
-    picture: Manuel.jpg
-    part: Tenor
-    position: Concert Manager
+
+
   -
     name: Matt Munsey '15
     picture: gentleman.jpg
@@ -53,32 +45,28 @@ gentlemen:
     name: Ethan Fuld '16
     picture: Ethan.jpg
     part: Tenor
-    position: Treasurer
+    position: General Manager
   -
     name: Joe Neumeyer '16
     picture: Joe.jpg
     part: Baritone
-    position:
+    position: Publicity Manager
   -
     name: Aaron Gittelman '16
     picture: gentleman.jpg
     part: Baritone
     position:
-  -
-    name: Parker Moore '14
-    picture: Parker.JPG
-    part: Bass
-    position: Alumni Coordinator
+
   -
     name: Dan Rosenthal '15
     picture: Dan.jpg
     part: Bass
-    position:
+    position: President
   -
     name: Jacob Morgan '17
     picture: gentleman.jpg
     part: Bass
-    position:
+    position: Concert Manager
   -
     name: Teddy Billings '17
     picture: gentleman.jpg
