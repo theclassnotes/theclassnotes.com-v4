@@ -6,6 +6,7 @@ title: Fall 2014 Callbacks List
 We are so excited to call back the following singers from our very talented pool of auditionees:
 
 <strong> Sopranos </strong>
+
 * Brigid Lucey (Soprano I)
 * Amelia Pacht (Soprano I)
 * Janaki Narayanan (Soprano I)
@@ -15,16 +16,19 @@ We are so excited to call back the following singers from our very talented pool
 * Gina Garrett (Mezzo)
 
 <strong> Altos </strong>
+
 * Emma Eaton
 * Deandra Fike
 * Ito Orobator
 
 <strong> Tenors </strong>
+
 * Eric Porter
 * Mark Arand
 * James Purcell
 
 <strong> Baritones </strong>
+
 * Lucas Gandy
 * Tristan Hawk
 * Anthony Lee (vocal percussion)
