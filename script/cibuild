@@ -1,15 +1,6 @@
 #! /bin/bash
-
 set -e
 
-echo 'compiling SCSS...'
-bundle exec compass compile -c ./_sass/config.rb
-echo
-
-echo 'compiling the jekyll site...'
-bundle exec jekyll build --trace
-echo
-
-bundle exec ./script/html-proofer
-
+script/build
+bundle exec script/html-proofer
 echo 'success'
