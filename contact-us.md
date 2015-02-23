@@ -11,14 +11,14 @@ colleges, business functions, and at major events such as the 1999 Christmas Tre
 at Rockefeller Center in New York City. Add a touch of class to your next event!
 
 **General Inquiries:**<br>
-Daniel Rosenthal<br>
+{{ site.data.leaders.president.name }}<br>
 President<br>
-{{ site.data.cn.links.pres_email }}
+[{{ site.data.leaders.president.email }}](mailto:{{ site.data.leaders.president.email }})
 
 **Gig Requests:**<br>
-Ethan Fuld<br>
+{{ site.data.leaders.gm.name }}<br>
 General Manager<br>
-{{ site.data.cn.links.gm_email }}
+[{{ site.data.leaders.gm.email }}](mailto:{{ site.data.leaders.gm.email }})
 
 **Mail**:<br>
 The Class Notes<br>
