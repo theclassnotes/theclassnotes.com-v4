@@ -1,4 +1,3 @@
 #! /bin/bash
-
-gem install bundler
-bundle install
+which bundle || gem install bundler
+bundle install -j8 $@
