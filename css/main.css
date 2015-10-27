@@ -236,9 +236,9 @@ table {
   *font-size: 90%;
   *overflow: visible;
   padding: .5em 1.5em;
-  color: #444;
+  color: purple;
   color: rgba(0, 0, 0, 0.8);
-  *color: #444;
+  *color: purple;
   border: 1px solid #999;
   border: 0 transparent;
   background-color: #E6E6E6;
