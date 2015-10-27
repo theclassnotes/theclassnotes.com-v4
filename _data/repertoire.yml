@@ -4,6 +4,47 @@
 
 current:
 -
+  title: Four Five Seconds
+  original_artist: Paul McCartney
+  soloist: "Oliver Yu '17, Melissa Ramanovich '17"
+  arranger: "Aaron Gittleman '16"
+-
+  title: To Love Somebody
+  original_artist: Bees Gees
+  soloist: "Lucas Gandy '19"
+  arranger: "Aaron Gittleman '16"
+-
+  title: Honey Moon Avenue
+  original_artist: Arianna Grande
+  soloist: "Janaki Narayana"
+  arranger: "Stef Wu '17"
+-
+  title: Comeback
+  original_artist: Ella Eyre
+  soloist: "Nishat Yasmin '16"
+  arranger: "Teddy Billings '17, Stef Wu '17"
+-
+  title: Valerie
+  original_artist: Mark Ronson
+  soloist: "yeeeeeeee buddeh"
+  arranger: "Teddy Billings '17"
+-
+  title: Work Song
+  original_artist: Hozier
+  soloist: "yeeee buddeh"
+  arranger: "Jeff Schwartz '14"
+retired:
+-
+  title: Nirvana
+  original_artist: Sam Smith
+  soloist: "Emily Woisin '16"
+  arranger: "Aaron Gittleman '16"
+-
+  title: Nightingale
+  original_artist: Demi Lovato
+  soloist: "Catherine Reiflin '15"
+  arranger: "Jessica Li '15, Teddy Billings '17"
+-
   title: Morning Comes
   original_artist: Delta Rae
   soloist: "Jeffrey Schwartz '14"
@@ -40,10 +81,9 @@ current:
   arranger: "Luke Zhu '12"
 -
   title: Put the Gun Down
-  original_artist: ZZ Ward
+  original_artist: ZZ Wa
   soloist: "Emily Woisin '16"
   arranger: "Julian Ordman '13"
-retired:
 -
   title: "Gone, Gone, Gone"
   original_artist: Phillip Phillips
