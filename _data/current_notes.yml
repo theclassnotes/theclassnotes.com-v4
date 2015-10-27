@@ -7,37 +7,47 @@ ladies:
     name: Melissa Romanovich '17
     picture:  Melissa.jpg
     part: Soprano
-    position: Tour Manager
+    position: General Manager
   -
-    name: Catherine Rieflin '15
+    name: Ruby Bafu '18
     picture: Catherine.JPG
     part: Soprano
     position: 
   -
     name: Stef Wu '17
     picture: Stef.jpg
-    part: Mezzo-Soprano
-    position: Assistant Musical Director
+    part: Alto
+    position: Musical Director
   -
     name: Nishat Yasmin '16
     picture: Nishat.jpg
     part: Mezzo-Soprano
     position: Treasurer
   -
-    name: Jessica Li '15
-    picture: Jessica.JPG
-    part: Alto
-    position: Musical Director
+    name: Sabrina Movitz '19
+    picture: gentleman.jpg
+    part: Soprano
+    position: 
   -
     name: Emily Woisin '16
     picture: Emily.jpg
+    part: Alto
+    position: President
+  -
+    name: Trisha Ray '19
+    picture: gentleman.jpg
+    part: Alto
+    position:
+  -
+    name: Jelena Chen 'Masters
+    picture: gentleman.jpg
     part: Alto
     position:
 gentlemen:
 
 
   -
-    name: Matt Munseyyy '15
+    name: Oliver Yu '17
     picture: gentleman.jpg
     part: Tenor
     position:
@@ -45,30 +55,45 @@ gentlemen:
     name: Ethan Fuld '16
     picture: Ethan.jpg
     part: Tenor
-    position: General Manager
+    position: 
   -
     name: Joe Neumeyer '16
     picture: Joe.jpg
     part: Baritone
-    position: Publicity Manager
+    position: Social Chair
   -
     name: Aaron Gittelman '16
     picture: gentleman.jpg
     part: Baritone
-    position:
+    position: Assistant Musical Director
 
   -
-    name: Dan Rosenthal '15
-    picture: Dan.jpg
+    name: Joey Gerlach '19
+    picture: gentleman.jpg
     part: Bass
-    position: President
+    position:
   -
     name: Jacob Morgan '17
     picture: gentleman.jpg
     part: Bass
-    position: Concert Manager
+    position: Tour Manager
   -
     name: Teddy Billings '17
     picture: gentleman.jpg
     part: Bass
+    position:
+  -
+    name: Mikal Nathani '19
+    picture: gentleman.jpg
+    part: Baritone
+    position:
+  -
+    name: Lucas Gandy '19
+    picture: gentleman.jpg
+    part: Tenor
+    position:
+  -
+    name: James Lukius '19
+    picture: gentleman.jpg
+    part: Tenor
     position:
