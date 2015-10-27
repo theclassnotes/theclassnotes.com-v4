@@ -10,9 +10,9 @@ ladies:
     position: General Manager
   -
     name: Ruby Bafu '18
-    picture: gentleman.JPG
+    picture: gentleman.jpg
     part: Mezzo Soprano
-    position: 
+    position: Concert Manager
   -
     name: Stef Wu '17
     picture: Stef.jpg
@@ -27,7 +27,7 @@ ladies:
     name: Sabrina Movitz '19
     picture: gentleman.jpg
     part: Soprano
-    position: 
+    position: Social Media
   -
     name: Emily Woisin '16
     picture: Emily.jpg

@@ -22,5 +22,5 @@ and we hope they do not take offense to this rule).
 
 That’s it! Typically, we have 2-3 days of open auditions, and then we have our
 callbacks. We look forward to hearing you, and don’t hesitate to
-[email our Musical Director](mailto:{{ site.data.cn.emails.md }}), Jessica Li '15,
+[email our Musical Director](mailto:{{ site.data.cn.emails.md }}), Stef Wu '17,
 with any questions.
