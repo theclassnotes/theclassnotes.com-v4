@@ -236,9 +236,9 @@ table {
   *font-size: 90%;
   *overflow: visible;
   padding: .5em 1.5em;
-  color: purple;
+  color: #44146f;
   color: rgba(0, 0, 0, 0.8);
-  *color: purple;
+  *color: #44146f;
   border: 1px solid #999;
   border: 0 transparent;
   background-color: #E6E6E6;
@@ -943,15 +943,15 @@ p {
   margin: 1em 0; }
 
 a {
-  color: purple;
+  color: #44146f;
   text-decoration: none; }
 
 a:hover {
-  color: purple;
+  color: #44146f;
   text-decoration: underline; }
 
 a:visited {
-  color: purple; }
+  color: #44146f; }
 
 /*****************************************************************************/
 /*
@@ -975,10 +975,10 @@ a:visited {
     color: #565658;
     margin-left: 5px; }
     .social a:hover {
-      color: #E20000;
+      color: purple;
       text-decoration: none; }
     .social a:visited {
-      color: #565658; }
+      color: purple; }
 
 /*****************************************************************************/
 /*
@@ -1029,7 +1029,7 @@ a:visited {
     .navigation a.current, .navigation a:hover {
       text-decoration: none;
       color: #251E20;
-      background-color: purple; }
+      background-color: #44146f; }
   .navigation ul {
     overflow: hidden;
     *zoom: 1;
