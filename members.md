@@ -2,7 +2,7 @@
 layout: default
 title: Members
 permalink: /members/
-banner_photo: c2016-notes-at-washington-square-park.jpg
+banner_photo: 2016-notes-at-washington-square-park.jpg
 ---
 
 # Ladies
