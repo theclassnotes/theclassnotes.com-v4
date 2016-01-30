@@ -29,4 +29,4 @@ In recent years, the Class Notes have made great strides, placing 1st in the 201
 [records studio albums]: /discography/
 [buy on iTunes]: https://itunes.apple.com/us/album/full-disclosure/id591217829
 [stream on Spotify]: http://open.spotify.com/album/3zgdIPtEijUbLJW3cXfaLu
-[ICCA]: http://www.varsityvocals.com/acappella.html
+[ICCA]: https://varsityvocals.com/competitions/
