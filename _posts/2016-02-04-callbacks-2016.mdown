@@ -5,8 +5,6 @@ title: Callbacks
 
 Congratulations to the following Callback-ees:
 
-Jihee Son - Alto
-
-Michelle Carfagno - Soprano
-
+Jihee Son - Alto<br>
+Michelle Carfagno - Soprano<br>
 Noah Danielson - Tenor
