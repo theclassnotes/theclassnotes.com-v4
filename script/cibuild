@@ -1,6 +1,0 @@
-#! /bin/bash
-set -e
-
-script/build
-bundle exec script/html-proofer
-echo 'success'
