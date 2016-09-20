@@ -1,0 +1,11 @@
+language: ruby
+rvm: 2.1
+script: ./script/cibuild
+notifications:
+  email:
+    recipients:
+      - parkrmoore@gmail.com
+    on_success: change
+    on_failure: change
+cache: bundler
+sudo: false
