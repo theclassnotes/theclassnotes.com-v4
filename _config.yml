@@ -1,29 +1,25 @@
-permalink: "/:year/:month/:day/:title/"
-markdown: kramdown
-relative_permalinks: false
-exclude:
-  - 'Guardfile'
-  - 'Gemfile*'
-  - '.gitignore'
-  - 'Rakefile'
-  - 'README.markdown'
-  - 'vendor'
-  - '.sass-cache'
+# Site settings
+title: The Cornell Class Notes
+header-img: img/home-bg.jpg
+email: md@theclassnotes.com
+copyright_name: The Cornell Class Notes
+description: "Write your site description here. It will be used as your sites meta description as well!"
+baseurl: "/theclassnotes.github.io"
+url: "theclassnotes.com"
+twitter_username: SBootstrap
+github_username:  tgb57
+facebook_username:  StartBootstrap
+email_username:  your-email@yourdomain.com
 
-prose:
-  metadata:
-    _posts:
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "post"
-      - name: "published"
-        field:
-          element: "checkbox"
-          label: "Published?"
-          value: "true"
-      - name: "title"
-        field:
-          element: "text"
-          label: "Title"
-          value: ""
+# Google Analytics
+# To enable google analytics, uncomment below line with a valid Google Tracking ID
+# google_tracking_id:
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]

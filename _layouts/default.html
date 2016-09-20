@@ -1,59 +1,18 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.data.cn.description }}{% endif %}">
-        <meta name="keywords" content="{{ site.data.cn.keywords | join:"," }}">
-        <meta name="robots" content="index, follow">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+<html lang="en">
 
-        {% include open_graph.html %}
+{% include head.html %}
 
-        <title>{{ page.title }} / {{ site.data.cn.name }} - {{ site.data.cn.tagline }}</title>
+<body>
 
-            <!-- Bootstrap Core CSS -->
-        <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}">
+    {% include nav.html %}
 
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="{{ "/css/clean-blog.css" | prepend: site.baseurl }}">
+    {{ content }}
 
-        <!-- Pygments Github CSS -->
-        <link rel="stylesheet" href="{{ "/css/syntax.css" | prepend: site.baseurl }}">
+    {% include footer.html %}
 
-        <!-- Custom Fonts -->
-        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-        <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-        <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    {% include ga.html %}
 
-        <link rel="alternate"  href="/atom.xml" title="{{ site.data.cn.name }} - {{ site.data.cn.tagline }}" type="application/atom+xml">
-        <link rel="stylesheet" href="/css/font-awesome.css">
-        <link rel="stylesheet" href="/css/main.css">
+</body>
 
-    </head>
-    <body class="{{ page.permalink | remove:"/" }}">
-
-        <div class="container">
-
-          {% include social.html %}
-
-          <div class="site">
-            {% include header.html %}
-
-            <div class="content-container">
-
-              {% include sidebar.html %}
-
-              <div class="content">
-                {{ content }}
-              </div>
-
-            </div>
-
-            {% include footer.html %}
-          </div>
-        </div> <!-- /container -->
-
-    </body>
 </html>
